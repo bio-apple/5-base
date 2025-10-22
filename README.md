@@ -48,5 +48,5 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
         Cytogenetics Modality: Not supported
         CNV with SV Support: Supported
 
-### 分析时间
+### 分析时间:
 1–4 hours(30× Germline–100×/30× T/N.)
