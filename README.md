@@ -4,15 +4,15 @@ https://www.illumina.com/science/genomics-research/articles/5-base-solution.html
 
 The 5-base genome measures the four standard bases plus methylated cytosine as a fifth base.
 
-![5-base](./5-base.png)
+![5-base](./pic/5-base.png)
 
 ## Illumina 5-base conversion chemistry
 
-![chemistry](./chemistry.png)
+![chemistry](./pic/chemistry.png)
 
 ## Sequencing coverage recommendations for different applications
 
-![application](./application.png)
+![application](./pic/application.png)
 
 **500M paired-end reads for germline VC + Methylation:**
 
@@ -22,7 +22,7 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 ## 生信分析
 
-![pipeline](./pipeline.png)
+![pipeline](./pic/pipeline.png)
 
 https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
 
