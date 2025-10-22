@@ -12,11 +12,19 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 ![application](./application.png)
 
+## 
+
+*   48 samples/NovaSeq X 25B
+*   18 samples/NovaSeq X 10B or NovaSeq 6000 S4 
+*   3 samples/NovaSeq X 1.5B
+
 ## 生信分析
 
 ![pipeline](./pipeline.png)
 
 https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
+
+Methylation (5mC), Germline and Somatic variants (SNVs, Indels, CNVs, SVs(future 4.5 release of DRAGEN))
 
 参数设置:<br>
 **--methylation-conversion=illumina**
