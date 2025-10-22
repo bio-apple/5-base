@@ -24,17 +24,17 @@ https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pi
 
 Methylation (5mC), Germline and Somatic variants (SNVs, Indels, CNVs, SVs(future 4.5 release of DRAGEN))
 
-参数设置:<br>
+### 参数设置:
 **--methylation-conversion=illumina**
 
-默认分析:<br>
+### 默认分析:
 Methylation is primarily identified by reference C>T mismatches on the + strand, or G>A mismatches on the – strand.
 目前5-base data is only compatible with **--methylation-protocol=directional**
 
-Small Variant Calling:<br>
+### Small Variant Calling:
 **--enable-variant-caller=true**
 
-CNV Calling:<br>
+### CNV Calling:
 
         Germline CNV Calling (depth-based): Supported for WGS; not supported for WES
         Germline CNV Calling ASCN: Not supported
@@ -43,3 +43,6 @@ CNV Calling:<br>
         Somatic CNV Calling WES: Not supported
         Cytogenetics Modality: Not supported
         CNV with SV Support: Supported
+
+### 分析时间
+1–4 hours(30× Germline–100×/30× T/N.)
