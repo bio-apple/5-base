@@ -12,8 +12,6 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 ![application](./application.png)
 
-## 
-
 *   48 samples/NovaSeq X 25B
 *   18 samples/NovaSeq X 10B or NovaSeq 6000 S4 
 *   3 samples/NovaSeq X 1.5B
