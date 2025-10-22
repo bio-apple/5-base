@@ -1,5 +1,7 @@
 # The "5th base"
- 
+
+https://www.illumina.com/science/genomics-research/articles/5-base-solution.html
+
 The 5-base genome measures the four standard bases plus methylated cytosine as a fifth base.
 
 ![5-base](./5-base.png)
