@@ -10,7 +10,7 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 ![chemistry](./chemistry.png)
 
-## Sequencing coverage recommendations for different applications**
+## Sequencing coverage recommendations for different applications
 
 ![application](./application.png)
 
