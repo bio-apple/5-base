@@ -59,5 +59,6 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 | **CHH** | 5'-C **H H**-3' (H=A/T/C) | 植物基因组 | 在植物中通常甲基化水平较低，需要被持续建立，常用于防御病毒和转座子。 |
 
 
-### 5-hydroxymethylcytosine (5hmC) 
+### 6-base genome:5-hydroxymethylcytosine (5hmC) 
 
+在很长一段时间里，科学家认为DNA甲基化（5mC）是一个相对稳定的、最终的沉默标记。然而，在2009年，两个里程碑式的研究发现，5mC可以在TET家族酶 的作用下被氧化成5hmC。
