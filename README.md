@@ -136,7 +136,17 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 | 环境 (Context) | 胞嘧啶周围的两个碱基（如 CpG, CHG, CHH）。 |
 | 三核苷酸 (Trinucleotide) | 胞嘧啶及其前后的碱基（用于更精细的环境分析）。 |
    
-#### 2.生信软件:methylKit:an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.
+#### 2.生信软件
+
+methylKit:an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.
+
+loading the required packages.
+
+    # Main analysis package
+    library("methylKit")
+    # Annotation package
+    library("genomation")
+    library("GenomicRanges")
 
 **Define the list containing the bismark coverage files.**
 
@@ -160,13 +170,13 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
                resolution="base"                                #allowed values ’base’ or ’region’. Default ’base
                )
 
-**gene annotation**
+**load gene annotation**
 
 For gene annotation, select “Genes and Gene prediction tracks” from the “group” drop-down menu. Following that, select “Refseq Genes” from the “track” drop-down menu. Select “BED- browser extensible data” for the “output format”. Click “get output” and on the following page click “get BED” without changing any options. Save the output as a text file.
 
     refseq_anot <- readTranscriptFeatures("/path/to/mm10.refseq.genes.bed")
 
-**CpG island annotation**
+**R genomation package:CpG island annotation**
 
 For CpG island annotation, select “Regulation” from the “group” drop-down menu. Following that, select “CpG islands” from the “track” drop-down menu. Select “BED- browser extensible data” for the “output format”. Click “get output” and on the following page click “get BED” without changing any options. Save the output as a text file.
 
