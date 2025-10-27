@@ -169,11 +169,11 @@ read the listed files into a methylRawList object making sure the other,paramete
                resolution="base"                                #allowed values ’base’ or ’region’. Default ’base
                )
 
-For **gene annotation**, select “Genes and Gene prediction tracks” from the “group” drop-down menu. Following that, select “Refseq Genes” from the “track” drop-down menu. Select “BED- browser extensible data” for the “output format”. Click “get output” and on the following page click “get BED” without changing any options. Save the output as a text file.
+For **gene annotation**, *select “Genes and Gene prediction tracks” from the “group” drop-down menu. Following that, select “Refseq Genes” from the “track” drop-down menu. Select “BED- browser extensible data” for the “output format”. Click “get output” and on the following page click “get BED” without changing any options. Save the output as a text file.*
 
     refseq_anot <- readTranscriptFeatures("/path/to/mm10.refseq.genes.bed")
 
-For **CpG island annotation**, select “Regulation” from the “group” drop-down menu. Following that, select “CpG islands” from the “track” drop-down menu. Select “BED- browser extensible data” for the “output format”. Click “get output” and on the following page click “get BED” without changing any options. Save the output as a text file.
+For **CpG island annotation**, *select “Regulation” from the “group” drop-down menu. Following that, select “CpG islands” from the “track” drop-down menu. Select “BED- browser extensible data” for the “output format”. Click “get output” and on the following page click “get BED” without changing any options. Save the output as a text file.*
 
     cpg_anot <- readFeatureFlank("/path/to/mm10.cpg.bed", feature.flank.name = c("CpGi", "shores"), flank=2000)
 
