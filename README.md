@@ -137,10 +137,11 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 **Define the list containing the bismark coverage files.**
 
     file.list <- list(
-       "/path/to/test1.CX_report.txt.gz",
-       "/path/to/test2.CX_report.txt.gz",
-       "/path/to/ctrl1.CX_report.txt.gz",
-       "/path/to/ctrl2.CX_report.txt.gz")
+       system.file("/path/to/test1.CX_report.txt.gz"),
+       system.file("/path/to/test2.CX_report.txt.gz"),
+       system.file("/path/to/ctrl1.CX_report.txt.gz"),
+       system.file("/path/to/ctrl2.CX_report.txt.gz")
+    )
     
 **read the listed files into a methylRawList object making sure the other<br>**
 **parameters are filled in correctly**
@@ -155,3 +156,9 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
                resolution="base"                                #allowed values ’base’ or ’region’. Default ’base
                )
     
+
+## 在线书籍
+
+[Computational Genomics with R:https://compgenomr.github.io/book/](https://compgenomr.github.io/book/)
+
+![Computational_Genomics_with_R](./pic/Computational_Genomics_with_R.jpg)
