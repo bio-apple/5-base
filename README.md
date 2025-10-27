@@ -138,7 +138,9 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
    
 #### 2.生信软件
 
-methylKit:an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.
+[methylKit](https://www.bioconductor.org/packages/release/bioc/html/methylKit.html):an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.
+
+[genomation](https://www.bioconductor.org/packages/release/bioc/html/genomation.html):a toolkit to summarize, annotate and visualize genomic intervals.
 
 loading the required packages.
 
