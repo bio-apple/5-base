@@ -67,3 +67,30 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 
 [nf-core/methylseq is a bioinformatics analysis pipeline used for Methylation (Bisulfite) sequencing data. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results.](https://github.com/nf-core/methylseq)
 
+| Step | Bismark workflow | bwa-meth workflow |
+| :--- | :--- | :--- |
+| Generate Reference Genome Index *(optional)* | Bismark | bwa-meth |
+| Merge re-sequenced FastQ files | cat | cat |
+| Raw data QC | FastQC | FastQC |
+| Adapter sequence trimming | Trim Galore! | Trim Galore! |
+| Align Reads | Bismark (bowtie2/hisat2) | bwa-meth |
+| Deduplicate Alignments | Bismark | Picard MarkDuplicates |
+| Extract methylation calls | Bismark | MethylDackel |
+| Sample report | Bismark | - |
+| Summary Report | Bismark | - |
+| Alignment QC | Qualimap *(optional)* | Qualimap *(optional)* |
+| Sample complexity | Preseq *(optional)* | Preseq *(optional)* |
+| Project Report | MultiQC | MultiQC |
+
+#### Bismark
+
+![bismark](./pic/Bismark_alignment_modes.png)
+
+#### bwa-meth
+[bwa-meth:fast and accurate alignment of BS-Seq reads using bwa-mem and a 3-letter genome](https://github.com/brentp/bwa-meth)
+
+[Pedersen B S, Eyring K, De S, et al. Fast and accurate alignment of long bisulfite-seq reads[J]. arXiv preprint arXiv:1401.1129, 2014.](https://arxiv.org/pdf/1401.1129)
+
+### ENCODE (Encyclopedia of DNA Elements)
+
+广泛的资源，包含大量的DNA元件（如组蛋白修饰、DNA敏感性、转录因子结合位点等）图谱。
