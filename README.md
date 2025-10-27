@@ -147,9 +147,11 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
     
     myobj=methRead(file.list,
                sample.id=list("test1","test2","ctrl1","ctrl2"),
-               assembly="hg18",                     #a string that defines the genome assembly such as hg18, mm9. 
-               pipeline="bismarkCytosineReport",    #name of the alignment pipeline, it can be either "amp", "bismark","bismarkCoverage","bismarkCytosineReport" or a list (default:’amp’).
+               assembly="hg18",                                 #a string that defines the genome assembly such as hg18, mm9. 
+               pipeline="bismarkCytosineReport",                #name of the alignment pipeline, it can be either "amp", "bismark","bismarkCoverage","bismarkCytosineReport" or a list (default:’amp’).
                treatment=c(1,1,0,0),
-               context="CpG"                        #methylation context string, ex: CpG,CHG,CHH, etc. (default:CpG)
+               context="CpG" ,                                  #methylation context string, ex: CpG,CHG,CHH, etc. (default:CpG)
+               mincov=10,                                       #defaults to 10
+               resolution="base"                                #allowed values ’base’ or ’region’. Default ’base
                )
     
