@@ -26,7 +26,7 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
 
-Methylation (5mC), Germline and Somatic variants (SNVs, Indels, CNVs, SVs(future 4.5 release of DRAGEN))
+Methylation (5mC)
 
 ### 参数设置:
 **--methylation-conversion=illumina**
@@ -34,6 +34,8 @@ Methylation (5mC), Germline and Somatic variants (SNVs, Indels, CNVs, SVs(future
 ### 默认分析:
 Methylation is primarily identified by reference C>T mismatches on the + strand, or G>A mismatches on the – strand.
 目前5-base data is only compatible with **--methylation-protocol=directional**
+
+ Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
 
 ### Small Variant Calling:
 **--enable-variant-caller=true**
@@ -47,6 +49,8 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
         Somatic CNV Calling WES: Not supported
         Cytogenetics Modality: Not supported
         CNV with SV Support: Supported
+
+### SVs(future 4.5 release of DRAGEN)
 
 ### 分析时间:
 1–4 hours(30× Germline–100×/30× T/N.)
