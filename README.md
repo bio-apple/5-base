@@ -63,7 +63,7 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 
 在很长一段时间里，科学家认为DNA甲基化（5mC）是一个相对稳定的、最终的沉默标记。然而，在2009年，两个里程碑式的研究发现，5mC可以在TET家族酶的作用下被氧化成5hmC。
 
-### 常规甲基化生物信息分析
+### 常规甲基化生物信息分析(初级分析)
 
 [nf-core/methylseq is a bioinformatics analysis pipeline used for Methylation (Bisulfite) sequencing data. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results.](https://github.com/nf-core/methylseq)
 
@@ -113,3 +113,43 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 
     外源对照DNA(Spike-in):在DNA样本中加入已知序列和完全未甲基化的人工DNA或噬菌体 DNA（如 λ phage DNA）。计算这些外源DNA中C到T的转化率，可以更准确地评估转化效率，因为它不受生物学甲基化模式的影响。
     线粒体DNA (mtDNA):由于线粒体DNA 在许多生物中通常是未甲基化的，因此可以用来估计转化率。
+
+**参考文献:**<br>
+[Tsuji J, Weng Z. Evaluation of preprocessing, mapping and postprocessing algorithms for analyzing whole genome bisulfite sequencing data[J]. Briefings in bioinformatics, 2016, 17(6): 938-952.](https://academic.oup.com/bib/article/17/6/938/2606438)
+
+
+### 甲基化分析高级分析
+
+**1.初级分析输出:cytosine_report**
+
+| 字段 (Field) | 描述 (Description) |
+| :--- | :--- |
+| 染色体 (Chr) | 胞嘧啶位点所在的染色体或支架。 |
+| 坐标 (Position) | 胞嘧啶位点在染色体上的位置（1-基）。 |
+| 链 (Strand) | 胞嘧啶所在链的方向（+ 或 -）。 |
+| **甲基化计数 (Methylated Count)** | 在该位置上，被读取为 **C**（即甲基化）的序列片段数量。 |
+| **非甲基化计数 (Unmethylated Count)** | 在该位置上，被读取为 **T**（即非甲基化）的序列片段数量。 |
+| 环境 (Context) | 胞嘧啶周围的两个碱基（如 CpG, CHG, CHH）。 |
+| 三核苷酸 (Trinucleotide) | 胞嘧啶及其前后的碱基（用于更精细的环境分析）。 |
+
+**2.生信软件:methylKit:an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.**
+
+
+    # Define the list containing the bismark coverage files.
+    file.list <- list(
+       "/path/to/test1.CX_report.txt.gz",
+       "/path/to/test2.CX_report.txt.gz",
+       "/path/to/ctrl1.CX_report.txt.gz",
+       "/path/to/ctrl2.CX_report.txt.gz")
+    
+    # read the listed files into a methylRawList object making sure the other
+    # parameters are filled in correctly.
+    
+    myobj=methRead(file.list,
+               sample.id=list("test1","test2","ctrl1","ctrl2"),
+               assembly="hg18",                     #a string that defines the genome assembly such as hg18, mm9. 
+               pipeline="bismarkCytosineReport",    #name of the alignment pipeline, it can be either "amp", "bismark","bismarkCoverage","bismarkCytosineReport" or a list (default:’amp’).
+               treatment=c(1,1,0,0),
+               context="CpG"                        #methylation context string, ex: CpG,CHG,CHH, etc. (default:CpG)
+               )
+    
