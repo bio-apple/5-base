@@ -93,8 +93,16 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 
 ### ENCODE (Encyclopedia of DNA Elements)
 
-广泛的资源，包含大量的DNA元件（如组蛋白修饰、DNA敏感性、转录因子结合位点等）图谱。
+ENCODE (DNA 元件百科全书) 项目的核心目标是识别和描述人类基因组中的所有功能元件（如组蛋白修饰、DNA敏感性、转录因子结合位点等），这些功能元件在正常生理条件下是如何工作的。因此，ENCODE 的大部分原始样本数据确实来自正常（健康）的细胞和组织。
 
 ![Encode](./pic/Encode_WGBS.png)
 
 [Whole-Genome Bisulfite Sequencing Data Standards and gemBS-based Processing Pipeline:https://www.encodeproject.org/data-standards/wgbs-encode4/](https://www.encodeproject.org/data-standards/wgbs-encode4/)
+
+生物学重复：two or more biological replicates，The CpG quantification should have a Pearson correlation of ≥0.8 for sites with ≥10X coverage.<br>
+测序要求：30x<br>
+测序读长:The read length should be a minimum of 100 base pairs.<br>
+内参：The pipeline maps against the lambda genome as a method of control.The C to T conversion rate should be ≥98%<br>
+
+    外源对照 DNA（Spike-in）： 在 DNA 样本中加入已知序列和完全未甲基化的人工 DNA 或噬菌体 DNA（如 λ phage DNA）。计算这些外源 DNA 中 C 到 T 的转化率，可以更准确地评估转化效率，因为它不受生物学甲基化模式的影响。
+    线粒体 DNA (mtDNA)： 由于线粒体 DNA 在许多生物中通常是未甲基化的，因此可以用来估计转化率。
