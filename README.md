@@ -120,7 +120,7 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 
 ### 甲基化分析高级分析
 
-**1.初级分析输出:cytosine_report**
+#### 1.    初级分析输出:cytosine_report**
 
 | 字段 (Field) | 描述 (Description) |
 | :--- | :--- |
@@ -131,8 +131,8 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 | **非甲基化计数 (Unmethylated Count)** | 在该位置上，被读取为 **T**（即非甲基化）的序列片段数量。 |
 | 环境 (Context) | 胞嘧啶周围的两个碱基（如 CpG, CHG, CHH）。 |
 | 三核苷酸 (Trinucleotide) | 胞嘧啶及其前后的碱基（用于更精细的环境分析）。 |
-
-**2.生信软件:methylKit:an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.**
+   
+#### 2.生信软件:methylKit:an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.**
 
 **Define the list containing the bismark coverage files.**
 
