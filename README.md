@@ -136,7 +136,7 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 | 环境 (Context) | 胞嘧啶周围的两个碱基（如 CpG, CHG, CHH）。 |
 | 三核苷酸 (Trinucleotide) | 胞嘧啶及其前后的碱基（用于更精细的环境分析）。 |
    
-#### 2.生信软件:methylKit:an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.**
+#### 2.生信软件:methylKit:an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.
 
 **Define the list containing the bismark coverage files.**
 
