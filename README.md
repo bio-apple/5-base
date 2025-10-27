@@ -62,3 +62,8 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 ### 6-base genome:5-hydroxymethylcytosine (5hmC) 
 
 在很长一段时间里，科学家认为DNA甲基化（5mC）是一个相对稳定的、最终的沉默标记。然而，在2009年，两个里程碑式的研究发现，5mC可以在TET家族酶的作用下被氧化成5hmC。
+
+### 常规甲基化生物信息分析
+
+[nf-core/methylseq is a bioinformatics analysis pipeline used for Methylation (Bisulfite) sequencing data. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results.](https://github.com/nf-core/methylseq)
+
