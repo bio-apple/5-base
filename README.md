@@ -95,4 +95,6 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 
 广泛的资源，包含大量的DNA元件（如组蛋白修饰、DNA敏感性、转录因子结合位点等）图谱。
 
+![Encode](./pic/Encode_WGBS.png)
+
 [Whole-Genome Bisulfite Sequencing Data Standards and gemBS-based Processing Pipeline:https://www.encodeproject.org/data-standards/wgbs-encode4/](https://www.encodeproject.org/data-standards/wgbs-encode4/)
