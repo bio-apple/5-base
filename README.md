@@ -111,5 +111,5 @@ The read length should be a minimum of 100 base pairs.<br>
 **内参：**<br>
 The pipeline maps against the lambda genome as a method of control.The C to T conversion rate should be ≥98%<br>
 
-    外源对照 DNA（Spike-in）： 在 DNA 样本中加入已知序列和完全未甲基化的人工 DNA 或噬菌体 DNA（如 λ phage DNA）。计算这些外源 DNA 中 C 到 T 的转化率，可以更准确地评估转化效率，因为它不受生物学甲基化模式的影响。
-    线粒体 DNA (mtDNA)： 由于线粒体 DNA 在许多生物中通常是未甲基化的，因此可以用来估计转化率。
+    外源对照DNA(Spike-in):在DNA样本中加入已知序列和完全未甲基化的人工DNA或噬菌体 DNA（如 λ phage DNA）。计算这些外源DNA中C到T的转化率，可以更准确地评估转化效率，因为它不受生物学甲基化模式的影响。
+    线粒体DNA (mtDNA):由于线粒体DNA 在许多生物中通常是未甲基化的，因此可以用来估计转化率。
