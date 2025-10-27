@@ -161,12 +161,10 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
                )
     
 
-## R book
+## Resource
 
-[Computational Genomics with R](https://compgenomr.github.io/book/)
+1.  [Computational Genomics with R](https://compgenomr.github.io/book/)
 
 ![Computational_Genomics_with_R](./pic/Computational_Genomics_with_R.jpg)
 
-## web Resource
-
-[DNA Methylation: Bisulfite Sequencing Workflow](https://nbis-workshop-epigenomics.readthedocs.io/en/latest/content/tutorials/methylationSeq/Seq_Tutorial.html)
+2.  [DNA Methylation: Bisulfite Sequencing Workflow](https://nbis-workshop-epigenomics.readthedocs.io/en/latest/content/tutorials/methylationSeq/Seq_Tutorial.html)
