@@ -179,3 +179,5 @@ For CpG island annotation, select “Regulation” from the “group” drop-dow
 ![Computational_Genomics_with_R](./pic/Computational_Genomics_with_R.jpg)
 
 2.  [DNA Methylation: Bisulfite Sequencing Workflow](https://nbis-workshop-epigenomics.readthedocs.io/en/latest/content/tutorials/methylationSeq/Seq_Tutorial.html)
+
+3.  [methylKit: User Guide](https://www.bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html)
