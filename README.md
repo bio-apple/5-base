@@ -148,7 +148,7 @@ loading the required packages.
     library("genomation")
     library("GenomicRanges")
 
-**Define the list containing the bismark coverage files.**
+Define the list containing the bismark coverage files
 
     file.list <- list(
        system.file("/path/to/test1.CX_report.txt.gz"),
@@ -156,9 +156,8 @@ loading the required packages.
        system.file("/path/to/ctrl1.CX_report.txt.gz"),
        system.file("/path/to/ctrl2.CX_report.txt.gz")
     )
-    
-**read the listed files into a methylRawList object making sure the other<br>**
-**parameters are filled in correctly**
+
+read the listed files into a methylRawList object making sure the other,parameters are filled in correctly
     
     myobj=methRead(file.list,
                sample.id=list("test1","test2","ctrl1","ctrl2"),
