@@ -161,7 +161,7 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
                )
     
 
-## 在线书籍
+## 生信分析在线R书籍
 
 [Computational Genomics with R:https://compgenomr.github.io/book/](https://compgenomr.github.io/book/)
 
