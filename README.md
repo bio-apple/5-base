@@ -134,16 +134,16 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 
 **2.生信软件:methylKit:an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.**
 
+**Define the list containing the bismark coverage files.**
 
-    # Define the list containing the bismark coverage files.
     file.list <- list(
        "/path/to/test1.CX_report.txt.gz",
        "/path/to/test2.CX_report.txt.gz",
        "/path/to/ctrl1.CX_report.txt.gz",
        "/path/to/ctrl2.CX_report.txt.gz")
     
-    # read the listed files into a methylRawList object making sure the other
-    # parameters are filled in correctly.
+**read the listed files into a methylRawList object making sure the other<br>**
+**parameters are filled in correctly**
     
     myobj=methRead(file.list,
                sample.id=list("test1","test2","ctrl1","ctrl2"),
