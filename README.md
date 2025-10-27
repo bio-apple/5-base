@@ -65,7 +65,7 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 
 ### 常规甲基化生物信息分析(初级分析)
 
-[nf-core/methylseq is a bioinformatics analysis pipeline used for Methylation (Bisulfite) sequencing data. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results.](https://github.com/nf-core/methylseq)
+[nf-core/methylseq](https://github.com/nf-core/methylseq) is a bioinformatics analysis pipeline used for Methylation (Bisulfite) sequencing data. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results.
 
 | Step | Bismark workflow | bwa-meth workflow |
 | :--- | :--- | :--- |
