@@ -124,7 +124,7 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 
 ### 甲基化分析高级分析
 
-#### 1.    初级分析输出:cytosine_report**
+#### 1.    初级分析输出:cytosine_report
 
 | 字段 (Field) | 描述 (Description) |
 | :--- | :--- |
