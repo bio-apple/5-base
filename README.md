@@ -99,10 +99,17 @@ ENCODE (DNA 元件百科全书) 项目的核心目标是识别和描述人类基
 
 [Whole-Genome Bisulfite Sequencing Data Standards and gemBS-based Processing Pipeline:https://www.encodeproject.org/data-standards/wgbs-encode4/](https://www.encodeproject.org/data-standards/wgbs-encode4/)
 
-生物学重复：two or more biological replicates，The CpG quantification should have a Pearson correlation of ≥0.8 for sites with ≥10X coverage.<br>
-测序要求：30x<br>
-测序读长:The read length should be a minimum of 100 base pairs.<br>
-内参：The pipeline maps against the lambda genome as a method of control.The C to T conversion rate should be ≥98%<br>
+**生物学重复:**<br>
+two or more biological replicates，The CpG quantification should have a Pearson correlation of ≥0.8 for sites with ≥10X coverage.<br>
+
+**测序要求：**<br>
+30x
+
+**测序读长:**<br>
+The read length should be a minimum of 100 base pairs.<br>
+
+**内参：**<br>
+The pipeline maps against the lambda genome as a method of control.The C to T conversion rate should be ≥98%<br>
 
     外源对照 DNA（Spike-in）： 在 DNA 样本中加入已知序列和完全未甲基化的人工 DNA 或噬菌体 DNA（如 λ phage DNA）。计算这些外源 DNA 中 C 到 T 的转化率，可以更准确地评估转化效率，因为它不受生物学甲基化模式的影响。
     线粒体 DNA (mtDNA)： 由于线粒体 DNA 在许多生物中通常是未甲基化的，因此可以用来估计转化率。
