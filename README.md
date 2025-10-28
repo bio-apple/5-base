@@ -52,6 +52,10 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 
 ### SVs(future 4.5 release of DRAGEN)
 
+### Reference Support and Recommended Use for Human Data
+
+![genome](./pic/genome.png)
+
 ### 分析时间:
 1–4 hours(30× Germline–100×/30× T/N.)
 
