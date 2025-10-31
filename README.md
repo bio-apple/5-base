@@ -66,6 +66,17 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 | **CHG** | 5'-C **H G**-3' (H=A/T/C) | 植物基因组 | 在植物中与CpG甲基化共同维持转录转座子沉默。在哺乳动物某些细胞中有非典型存在。 |
 | **CHH** | 5'-C **H H**-3' (H=A/T/C) | 植物基因组 | 在植物中通常甲基化水平较低，需要被持续建立，常用于防御病毒和转座子。 |
 
+### 5-base 三级分析
+
+ICM 5-Base:https://help.connected.illumina.com/dragen-5-base/tertiary-analysis/connected-multiomics-walkthrough
+
+**对应的开源软件:**
+
+Detect Differentially Methylated Regions (DMRs) Bioconductor package :<br>
+
+Using DSS for BS-seq differential methylation analysis: https://www.bioconductor.org/packages/devel/bioc/vignettes/DSS/inst/doc/DSS.html#3_Using_DSS_for_BS-seq_differential_methylation_analysis
+
+Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bioc/vignettes/bsseq/inst/doc/bsseq_analysis.html
 
 ### 6-base genome:5-hydroxymethylcytosine (5hmC) 
 
