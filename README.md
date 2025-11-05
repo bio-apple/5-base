@@ -203,3 +203,5 @@ For **CpG island annotation**, *select “Regulation” from the “group” dro
 2.  [DNA Methylation: Bisulfite Sequencing Workflow](https://nbis-workshop-epigenomics.readthedocs.io/en/latest/content/tutorials/methylationSeq/Seq_Tutorial.html)
 
 3.  [methylKit: User Guide](https://www.bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html)
+
+4. [wgbstools - suite for DNA methylation sequencing data representation, visualization, and analysis](https://github.com/nloyfer/wgbs_tools)
