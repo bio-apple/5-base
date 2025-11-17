@@ -222,7 +222,9 @@ For **gene annotation**, *select “Genes and Gene prediction tracks” from the
 
 For **CpG island annotation (200-bp regions typically 1 kb with a GC fraction greater than 0.5 and an observed-to-expected CpG ratio greater than 0.6)**, *select “Regulation” from the “group” drop-down menu. Following that, select “CpG islands” from the “track” drop-down menu. Select “BED- browser extensible data” for the “output format”. Click “get output” and on the following page click “get BED” without changing any options. Save the output as a text file.*
 
-    cpg_anot <- readFeatureFlank("/path/to/mm10.cpg.bed", feature.flank.name = c("CpGi", "shores"), flank=2000)
+    cpg_anot <- readFeatureFlank("/path/to/mm10.cpg.bed", 
+                                feature.flank.name = c("CpGi", "shores"), 
+                                flank=2000)
 
 ## Resource
 
