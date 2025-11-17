@@ -101,6 +101,19 @@ Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bi
 | Sample complexity | Preseq *(optional)* | Preseq *(optional)* |
 | Project Report | MultiQC | MultiQC |
 
+### 序列比对
+
+| 特征 | 三字母法 (Three-letter) | 通配符法 (Wildcard) |
+| :--- | :--- | :--- |
+| **参考基因组处理** | 所有 C $\rightarrow$ T | 所有 C $\rightarrow$ Y (通配符) |
+| **字母集** | A, G, T | A, G, T, Y |
+| **主要比对算法** | BWT 回溯 | 哈希表 + 种子-延伸 |
+| **序列复杂性** | 降低 | 维持（较高） |
+| **比对模糊性** | 增加 | 降低 |
+| **甲基化偏差** | 倾向于**低**估 | 倾向于**高**估 |
+| **计算效率** | **更快**（优先考虑） | 较慢 |
+| **代表工具** | Bismark, BWA-METH | BRAT\_BW, BSMAP, GSnap |
+
 #### Bismark
 
 ![bismark](./pic/Bismark_alignment_modes.png)
