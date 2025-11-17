@@ -131,6 +131,11 @@ Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bi
 
 [Pedersen B S, Eyring K, De S, et al. Fast and accurate alignment of long bisulfite-seq reads[J]. arXiv preprint arXiv:1401.1129, 2014.](https://arxiv.org/pdf/1401.1129)
 
+### M-bias plot
+
+在配对末端（Paired-End, PE）测序文库制备的末端修复（End-Repair）步骤中，如果使用了未甲基化的胞嘧啶进行补齐（Fill-in）反应，这部分新合成的序列在后续的亚硫酸氢盐处理中会被转化为T。 偏差： 这会人为地导致第二条Read（Read 2）的起始几个碱基出现 **低甲基化（Hypomethylation**信号，是一个需要通过生物信息学方法去除的人工假象。
+为了保证数据准确性，通常会建议在下游分析中去除或 **硬裁剪（hard-clip）** 掉读长中受M-bias影响的碱基（例如，将读长的前5个或后5个碱基丢弃），以提高甲基化水平估算的准确性。
+
 ### ENCODE (Encyclopedia of DNA Elements)
 
 ENCODE (DNA 元件百科全书) 项目的核心目标是识别和描述人类基因组中的所有功能元件（如组蛋白修饰、DNA敏感性、转录因子结合位点等），这些功能元件在正常生理条件下是如何工作的。因此，ENCODE 的大部分原始样本数据确实来自正常（健康）的细胞和组织。
