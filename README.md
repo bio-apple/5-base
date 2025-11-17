@@ -14,6 +14,8 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 ![reactions](./pic/reactions.png)
 
+[Kernaleguen M, Daviaud C, Shen Y, et al. Whole-genome bisulfite sequencing for the analysis of genome-wide DNA methylation and hydroxymethylation patterns at single-nucleotide resolution[M]//Epigenome Editing: Methods and Protocols. New York, NY: Springer New York, 2018: 311-349.](https://link.springer.com/protocol/10.1007/978-1-4939-7774-1_18)
+
 ## Sequencing coverage recommendations for different applications
 
 ![application](./pic/application.png)
