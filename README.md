@@ -84,6 +84,8 @@ Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bi
 
 ### 常规甲基化生物信息分析(初级分析)
 
+[Gong T, Borgard H, Zhang Z, et al. Analysis and performance assessment of the whole genome bisulfite sequencing data workflow: currently available tools and a practical guide to advance DNA methylation studies[J]. Small Methods, 2022, 6(3): 2101251.](https://onlinelibrary.wiley.com/doi/abs/10.1002/smtd.202101251)
+
 [nf-core/methylseq](https://github.com/nf-core/methylseq) is a bioinformatics analysis pipeline used for Methylation (Bisulfite) sequencing data. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results.
 
 | Step | Bismark workflow | bwa-meth workflow |
