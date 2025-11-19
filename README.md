@@ -109,6 +109,10 @@ Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bi
 | Sample complexity | Preseq *(optional)* | Preseq *(optional)* |
 | Project Report | MultiQC | MultiQC |
 
+[Singer B D. A practical guide to the measurement and analysis of DNA methylation[J]. American journal of respiratory cell and molecular biology, 2019, 61(4): 417-428.](https://www.atsjournals.org/doi/full/10.1165/rcmb.2019-0150TR)
+
+![bioinformatics](pic/data_process.png)
+
 ### 序列比对
 
 | 特征 | 三字母法 (Three-letter) | 通配符法 (Wildcard) |
@@ -134,7 +138,7 @@ Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bi
 ### M-bias plot
 
 在配对末端（Paired-End, PE）测序文库制备的末端修复（End-Repair）步骤中，如果使用了未甲基化的胞嘧啶进行补齐（Fill-in）反应，这部分新合成的序列在后续的亚硫酸氢盐处理中会被转化为T。 偏差： 这会人为地导致第二条Read（Read 2）的起始几个碱基出现 **低甲基化（Hypomethylation**信号，是一个需要通过生物信息学方法去除的人工假象。
-为了保证数据准确性，通常会建议在下游分析中去除或 **硬裁剪（hard-clip）** 掉读长中受M-bias影响的碱基（例如，将读长的前5个或后5个碱基丢弃），以提高甲基化水平估算的准确性。
+为了保证数据准确性，通常会建议在下游分析中去除或 **硬裁剪（hard-clip)** 掉读长中受M-bias影响的碱基（例如，将读长的前5个或后5个碱基丢弃），以提高甲基化水平估算的准确性。
 
 ### ENCODE (Encyclopedia of DNA Elements)
 

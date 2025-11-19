@@ -18050,3 +18050,814 @@ trailer
 startxref
 2371162
 %%EOF
+1 0 obj
+<< /CreationDate (D:20250916094507Z00'00') /Creator (Springer) /CrossmarkDomainExclusive
+(true) /CrossmarkMajorVersionDate (2010-04-23) /Trapped /False /doi (10.1186/s13148-025-01967-0)
+/Title (DNA methylation and machine learning: challenges and perspective toward enhanced clinical diagnostics)
+/Subject (Clinical Epigenetics, https://doi.org/10.1186/s13148-025-01967-0)
+/Keywords (DNA methylation; Machine learning; Epigenetics; CpG sites; Clinical application)
+/CrossMarkDomains#5b1#5d (springer.com) /robots (noindex) /ModDate (D:20251119032004Z00'00')
+/Author (Erfan Aref-Eshghi ) /Producer (şÿ\000m\000a\000c\000O\000S\000 rHg,\0002\0006\000.\0001ÿ\010rHS÷\0002\0005\000B\0007\0008ÿ\011\000 \000Q\000u\000a\000r\000t\000z\000 \000P\000D\000F\000C\000o\000n\000t\000e\000x\000t\000,\000 \000A\000p\000p\000e\000n\000d\000M\000o\000d\000e\000 \0001\000.\0001)
+/CrossMarkDomains#5b2#5d (springerlink.com) >>
+endobj
+3 0 obj
+<< /Annots 4 0 R /Type /Page /Thumb 8 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 6 0 R /Resources 7 0 R /Rotate 0 /PieceInfo << /InDesign << /PageTransformationMatrixList
+<< /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap << /0 [ 2361 10 3 487.481
+-361.333 538.583 -354.997 1 0 0 1 541.537 -345.823 ] /1 [ 2383 9 3 -107.717
+-361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066 ] /2 [ 2452 13 3 56.6929
+-361.85 481.333 -344.333 1 0 0 1 141.846 -353.35 ] /3 [ 2474 12 3 -538.583
+-361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026 ] /4 [ 2498 11 3 56.6929
+-361.488 538.583 -340.937 1 0 0 1 104.031 -346.252 ] >> /PageWidthList <<
+/0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094412Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+2994 >> >> >> /Contents 5 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+48 0 obj
+<< /Annots 49 0 R /Type /Page /Thumb 52 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 6 0 R /Resources 51 0 R /Rotate 0 /PieceInfo << /InDesign << /PageTransformationMatrixList
+<< /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap << /0 [ 2361 10 3 487.481
+-361.333 538.583 -354.997 1 0 0 1 541.537 -345.823 ] /1 [ 2383 9 3 -107.717
+-361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066 ] /2 [ 2452 13 3 56.6929
+-361.85 481.333 -344.333 1 0 0 1 141.846 -353.35 ] /3 [ 2474 12 3 -538.583
+-361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026 ] /4 [ 2498 11 3 56.6929
+-361.488 538.583 -340.937 1 0 0 1 104.031 -346.252 ] >> /PageWidthList <<
+/0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094412Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+2995 >> >> >> /Contents 50 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+49 0 obj
+[ 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R
+64 0 R 65 0 R 66 0 R 1888 0 R ]
+endobj
+82 0 obj
+<< /Annots 83 0 R /Type /Page /Thumb 86 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 6 0 R /Resources 85 0 R /Rotate 0 /PieceInfo << /InDesign << /PageTransformationMatrixList
+<< /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap << /0 [ 2361 10 3 487.481
+-361.333 538.583 -354.997 1 0 0 1 541.537 -345.823 ] /1 [ 2383 9 3 -107.717
+-361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066 ] /2 [ 2452 13 3 56.6929
+-361.85 481.333 -344.333 1 0 0 1 141.846 -353.35 ] /3 [ 2474 12 3 -538.583
+-361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026 ] /4 [ 2498 11 3 56.6929
+-361.488 538.583 -340.937 1 0 0 1 104.031 -346.252 ] >> /PageWidthList <<
+/0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094414Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4409 >> >> >> /Contents 84 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+110 0 obj
+<< /Annots 111 0 R /Type /Page /Thumb 114 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 6 0 R /Resources 113 0 R /Rotate 0 /PieceInfo << /InDesign << /PageTransformationMatrixList
+<< /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap << /0 [ 2361 10 3 487.481
+-361.333 538.583 -354.997 1 0 0 1 541.537 -345.823 ] /1 [ 2383 9 3 -107.717
+-361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066 ] /2 [ 2452 13 3 56.6929
+-361.85 481.333 -344.333 1 0 0 1 141.846 -353.35 ] /3 [ 2474 12 3 -538.583
+-361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026 ] /4 [ 2498 11 3 56.6929
+-361.488 538.583 -340.937 1 0 0 1 104.031 -346.252 ] >> /PageWidthList <<
+/0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094415Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4462 >> >> >> /Contents 112 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+173 0 obj
+<< /Annots 174 0 R /Type /Page /Thumb 178 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 176 0 R /Resources 177 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094416Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4527 >> >> >> /Contents 175 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+207 0 obj
+<< /Annots 208 0 R /Type /Page /Thumb 211 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 176 0 R /Resources 210 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094417Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4581 >> >> >> /Contents 209 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+222 0 obj
+<< /Annots 223 0 R /Type /Page /Thumb 226 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 176 0 R /Resources 225 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094418Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4646 >> >> >> /Contents 224 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+256 0 obj
+<< /Type /Page /Thumb 259 0 R /MediaBox [ 0 0 595.276 790.866 ] /Resources
+258 0 R /CropBox [ 0 0 595.276 790.866 ] /Rotate 0 /PieceInfo << /InDesign
+<< /PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094418Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4702 >> >> >> /Contents 257 0 R /Parent 176 0 R >>
+endobj
+262 0 obj
+<< /Annots 263 0 R /Type /Page /Thumb 266 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 176 0 R /Resources 265 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4765 >> >> >> /Contents 264 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+263 0 obj
+[ 267 0 R 268 0 R 269 0 R 270 0 R 271 0 R 272 0 R 273 0 R 274 0 R 275 0 R
+276 0 R 277 0 R 278 0 R 279 0 R 1894 0 R ]
+endobj
+267 0 obj
+<< /BS << /W 0 >> /AP << /N 0 0 R >> /Border [ 0 0 0 ] /Rect [ 207.014 584.969
+216.853 597.135 ] /H /N /DA (//Helvetica 12 Tf 0 g) /F 4 /A << /S /GoTo /D
+[ /#2338 /XYZ 304 408 null ] >> /Subtype /Link /Type /Annot /Dest [ /#2338
+/XYZ 304 408 null ] >>
+endobj
+293 0 obj
+<< /Annots 294 0 R /Type /Page /Thumb 298 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 296 0 R /Resources 297 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4827 >> >> >> /Contents 295 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+325 0 obj
+<< /Type /Page /Thumb 328 0 R /MediaBox [ 0 0 595.276 790.866 ] /Resources
+327 0 R /CropBox [ 0 0 595.276 790.866 ] /Rotate 90 /PieceInfo << /InDesign
+<< /PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4889 >> >> >> /Contents 326 0 R /Parent 296 0 R >>
+endobj
+329 0 obj
+<< /Type /Page /Thumb 332 0 R /MediaBox [ 0 0 595.276 790.866 ] /Resources
+331 0 R /CropBox [ 0 0 595.276 790.866 ] /Rotate 90 /PieceInfo << /InDesign
+<< /PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+4943 >> >> >> /Contents 330 0 R /Parent 296 0 R >>
+endobj
+333 0 obj
+<< /Annots 334 0 R /Type /Page /Thumb 337 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 296 0 R /Resources 336 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5008 >> >> >> /Contents 335 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+382 0 obj
+<< /Annots 383 0 R /Type /Page /Thumb 386 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 296 0 R /Resources 385 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5064 >> >> >> /Contents 384 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+413 0 obj
+<< /Annots 414 0 R /Type /Page /Thumb 418 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 416 0 R /Resources 417 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5126 >> >> >> /Contents 415 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+448 0 obj
+<< /Annots 449 0 R /Type /Page /Thumb 452 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 416 0 R /Resources 451 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5179 >> >> >> /Contents 450 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+485 0 obj
+<< /Annots 486 0 R /Type /Page /Thumb 489 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 416 0 R /Resources 488 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5246 >> >> >> /Contents 487 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+504 0 obj
+<< /Annots 505 0 R /Type /Page /Thumb 508 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 416 0 R /Resources 507 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5299 >> >> >> /Contents 506 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+537 0 obj
+<< /Annots 538 0 R /Type /Page /Thumb 541 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 416 0 R /Resources 540 0 R /Rotate 90 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094420Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5362 >> >> >> /Contents 539 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+574 0 obj
+<< /Annots 575 0 R /Type /Page /Thumb 579 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 577 0 R /Resources 578 0 R /Rotate 90 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094421Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5417 >> >> >> /Contents 576 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+611 0 obj
+<< /Annots 612 0 R /Type /Page /Thumb 615 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 577 0 R /Resources 614 0 R /Rotate 90 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094421Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5481 >> >> >> /Contents 613 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+640 0 obj
+<< /Annots 641 0 R /Type /Page /Thumb 644 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 577 0 R /Resources 643 0 R /Rotate 90 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094421Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5541 >> >> >> /Contents 642 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+649 0 obj
+<< /Annots 650 0 R /Type /Page /Thumb 653 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 577 0 R /Resources 652 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094421Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5603 >> >> >> /Contents 651 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+684 0 obj
+<< /Annots 685 0 R /Type /Page /Thumb 688 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 577 0 R /Resources 687 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094421Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5659 >> >> >> /Contents 686 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+711 0 obj
+<< /Annots 712 0 R /Type /Page /Thumb 716 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 714 0 R /Resources 715 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094421Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5723 >> >> >> /Contents 713 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+744 0 obj
+<< /Annots 745 0 R /Type /Page /Thumb 748 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 714 0 R /Resources 747 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094421Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5776 >> >> >> /Contents 746 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+765 0 obj
+<< /Annots 766 0 R /Type /Page /Thumb 769 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 714 0 R /Resources 768 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094421Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5844 >> >> >> /Contents 767 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+776 0 obj
+<< /Annots 777 0 R /Type /Page /Thumb 780 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 714 0 R /Resources 779 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094423Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5897 >> >> >> /Contents 778 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+797 0 obj
+<< /Annots 798 0 R /Type /Page /Thumb 801 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 714 0 R /Resources 800 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094423Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+5964 >> >> >> /Contents 799 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+828 0 obj
+<< /Annots 829 0 R /Type /Page /Thumb 833 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 831 0 R /Resources 832 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094423Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6018 >> >> >> /Contents 830 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+852 0 obj
+<< /Annots 853 0 R /Type /Page /Thumb 856 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 831 0 R /Resources 855 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094423Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6083 >> >> >> /Contents 854 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+871 0 obj
+<< /Annots 872 0 R /Type /Page /Thumb 875 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 831 0 R /Resources 874 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094423Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6140 >> >> >> /Contents 873 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+892 0 obj
+<< /Annots 893 0 R /Type /Page /Thumb 896 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 831 0 R /Resources 895 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094423Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6207 >> >> >> /Contents 894 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+915 0 obj
+<< /Annots 916 0 R /Type /Page /Thumb 919 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 831 0 R /Resources 918 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094424Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6263 >> >> >> /Contents 917 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+950 0 obj
+<< /Annots 951 0 R /Type /Page /Thumb 955 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 953 0 R /Resources 954 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094424Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6329 >> >> >> /Contents 952 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+968 0 obj
+<< /Annots 969 0 R /Type /Page /Thumb 972 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 953 0 R /Resources 971 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094424Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6382 >> >> >> /Contents 970 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+979 0 obj
+<< /Annots 980 0 R /Type /Page /Thumb 983 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 953 0 R /Resources 982 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094424Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6440 >> >> >> /Contents 981 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+1011 0 obj
+<< /Annots 1012 0 R /Type /Page /Thumb 1015 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 953 0 R /Resources 1014 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094424Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6487 >> >> >> /Contents 1013 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+1021 0 obj
+<< /Annots 1022 0 R /Type /Page /Thumb 1025 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 953 0 R /Resources 1024 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094424Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6545 >> >> >> /Contents 1023 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+1056 0 obj
+<< /Annots 1057 0 R /Type /Page /Thumb 1060 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 953 0 R /Resources 1059 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094424Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6592 >> >> >> /Contents 1058 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+1085 0 obj
+<< /Annots 1086 0 R /Type /Page /Thumb 1089 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 953 0 R /Resources 1088 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094424Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6650 >> >> >> /Contents 1087 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+1226 0 obj
+<< /Annots 1227 0 R /Type /Page /Thumb 1230 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 953 0 R /Resources 1229 0 R /Rotate 0 /PieceInfo << /InDesign <<
+/PageTransformationMatrixList << /0 [ 1 0 0 1 0 0 ] >> /PageItemUIDToLocationDataMap
+<< /0 [ 2361 10 3 487.481 -361.333 538.583 -354.997 1 0 0 1 541.537 -345.823
+] /1 [ 2383 9 3 -107.717 -361.333 -56.6149 -354.686 1 0 0 1 -89.2913 -353.066
+] /2 [ 2452 13 3 56.6929 -361.85 481.333 -344.333 1 0 0 1 141.846 -353.35
+] /3 [ 2474 12 3 -538.583 -361.85 -113.943 -344.5 1 0 0 1 -453.291 -354.026
+] /4 [ 2498 11 3 56.6929 -361.488 538.583 -340.937 1 0 0 1 104.031 -346.252
+] >> /PageWidthList << /0 595.276 >> /NumberofPages 1 /DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e)
+/LastModified (D:20250916094424Z) /NumberOfPageItemsInPage 5 /OriginalDocumentID
+(adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731) /PageUIDList << /0
+6697 >> >> >> /Contents 1228 0 R /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+1753 0 obj
+<< /Annots 1761 0 R /Type /Page /Thumb 1742 0 R /MediaBox [ 0 0 595.276 790.866
+] /Parent 6 0 R /Resources 1770 0 R /Rotate 0 /PieceInfo << /InDesign << /PageTransformationMatrixList
+<< /0 [ 1 0 0 1 0 0 ] >> /PageWidthList << /0 595.276 >> /NumberofPages 1
+/DocumentID (xmp.did:07e694cb-9e70-4944-abef-239cdf72294e) /LastModified (D:20250916094412Z)
+/OriginalDocumentID (adobe:docid:indd:ebfdfdf8-f22e-11db-8fec-eec230f20731)
+/PageUIDList << /0 2804 >> >> >> /Contents [ 1762 0 R 1763 0 R 1764 0 R 1765 0 R
+1766 0 R 1767 0 R 1768 0 R 1769 0 R ] /CropBox [ 0 0 595.276 790.866 ] >>
+endobj
+1888 0 obj
+<< /T (yfan) /AP << /N 1889 0 R >> /Rect [ 319.8752 605.3399 516.618 619.8733
+] /M (D:20251119031254Z00'00') /C [ 0.980392 0.803922 0.352941 ] /DA (//Helvetica 12 Tf 0 g)
+/F 4 /Type /Annot /Border [ 0 0 0 ] /QuadPoints [ 319.8752 619.8733 516.618
+619.8733 319.8752 605.3398 516.618 605.3398 ] /Subtype /Highlight >>
+endobj
+1889 0 obj
+<< /Length 169 /Type /XObject /FormType 1 /Resources 1890 0 R /Subtype /Form
+/Filter /FlateDecode /BBox [ 0 0 196.7428 14.5334 ] >> stream
+xMA!E÷sŠ‚Z(X»p=+@ÔšŒÜ?±34,Ú|Èû+6°W”Rğ.P	øÜpÅ§ss¨L%³oË1÷E¢/Á¡Uœ.Í-{…D^5áµ#™\1$…é„83+<Vµ‹TëÊ¢~fËÓ²H>—8³?ËÉŞ½x'õŸe6bÇ,Ócvu±ú3ê‰•é>ƒ7>¹TÜ±~*1A
+endstream
+endobj
+1890 0 obj
+<< /ColorSpace << /Cs1 1891 0 R >> /ProcSet [ /PDF ] /ExtGState << /Gs1 1893 0 R
+>> >>
+endobj
+1891 0 obj
+[ /ICCBased 1892 0 R ]
+endobj
+1892 0 obj
+<< /Alternate /DeviceRGB /Length 2612 /Filter /FlateDecode /N 3 >> stream
+x–wTSÙ‡Ï½7½Ğ" %ôz	 Ò;HQ‰I€P†„&vDF)VdTÀG‡"cEƒ‚b×	òPÆÁQDEåİŒk	ï­5óŞšıÇYßÙç·×Ùgï}×º Pü‚ÂtX€4¡XîëÁ\ËÄ÷XÀáffGøDÔü½=™™¨HÆ³öî.€d»Û,¿P&sÖÿ‘"7C$ 
+EÕ6<~&å”S³Å2ÿÊô•)2†12¡	¢¬"ãÄ¯lö§æ+»É˜—&ä¡YÎ¼4Œ»PŞš%á£Œ¡\˜%àg£|e½TIš å÷(ÓÓøœL 0™_Ìç&¡l‰2Eî‰ò ”Ä9¼r‹ù9h x¦gäŠ‰Ib¦×˜iåèÈfúñ³Sùb1+”ÃMáˆxLÏô´0€¯o–E%Ym™h‘í­ííYÖæhù¿Ùß~Sı=ÈzûUñ&ìÏAŒYßlì¬/½ ö$Z›³¾•U ´m@åá¬Oï  ò ´Şœó†l^’Äâ'‹ììlsŸk.+è7ûŸ‚oÊ¿†9÷™ËîûV;¦?#I3eEå¦§¦KDÌÌ—Ïdı÷ÿãÀ9iÍÉÃ,œŸÀñ…èUQè”	„‰h»…<X.d
+„Õá6'~khu_ }…9P¸IÈo= C#$n?z}ë[1
+È¾¼h­‘¯s2zşçú\ŠnáLA"Sæödr%¢,£ß„lÁt 
+4.0,`€3pŞ  „€H–.Hi@²A>Ø 
+A1Øvƒjp ÔzĞN‚6p\WÀp€G@
+†ÁK0Şi‚ğ¢Aª¤™BÖZyCAP8ÅC‰’@ùĞ&¨*ƒª¡CP=ô#tº]ƒú Ğ 4ı}„˜ÓaØ ¶€Ù°;GÂËàDxœÀÛáJ¸>·Âáğ ,…_Â“@ÈÑFXñDBX$!k‘"¤©Eš¤¹H‘qä‡¡a˜Æã‡YŒábVaÖbJ0Õ˜c˜VLæ6f3ù‚¥bÕ±¦X'¬?v	6›-ÄV``[°—±Øaì;ÇÀâp~¸\2n5®·×Œ»€ëÃá&ñx¼*Şï‚Ásğb|!¾
+ßÆ¿'	Zk‚!– $l$Tçı„Â4Q¨Ot"†yÄ\b)±ØA¼I&N“I†$R$)™´TIj"]&=&½!“É:dGrY@^O®$Ÿ _%’?P”(&OJEBÙN9J¹@y@yC¥R¨nÔXª˜ºZO½D}J}/G“3—ó—ãÉ­“«‘k•ë—{%O”×—w—_.Ÿ'_!Jş¦ü¸QÁ@ÁS£°V¡Fá´Â=…IEš¢•bˆbšb‰bƒâ5ÅQ%¼’’·O©@é°Ò%¥!BÓ¥yÒ¸´M´:ÚeÚ0G7¤ûÓ“éÅôè½ô	e%e[å(ååå³ÊRÂ0`ø3R¥Œ“Œ»Œó4æ¹ÏãÏÛ6¯i^ÿ¼)•ù*n*|•"•f••ªLUoÕÕªmªOÔ0j&jajÙjûÕ.«Ï§ÏwÏ_4ÿäü‡ê°º‰z¸újõÃê=ê“š¾U—4Æ5šnšÉšåšç4Ç´hZµZåZçµ^0•™îÌTf%³‹9¡­®í§-Ñ>¤İ«=­c¨³Xg£N³Î]’.[7A·\·SwBOK/X/_¯Qï¡>QŸ­Ÿ¤¿G¿[ÊÀĞ Ú`‹A›Á¨¡Š¡¿aa£ác#ª‘«Ñ*£Z£;Æ8c¶qŠñ>ã[&°‰I’IÉMSØÔŞT`ºÏ´Ïkæh&4«5»Ç¢°ÜYY¬FÖ 9Ã<È|£y›ù+=‹X‹İ_,í,S-ë,Y)YXm´ê°úÃÚÄšk]c}Ç†jãc³Î¦İæµ­©-ßv¿í};š]°İ»N»Ïöö"û&û1=‡x‡½÷Øtv(»„}Õëèá¸ÎñŒã'{'±ÓI§ßYÎ)ÎÎ£ğÔ-rÑqá¸r‘.d.Œ_xp¡ÔUÛ•ãZëúÌM×çvÄmÄİØ=Ùı¸û+K‘G‹Ç”§“çÏ^ˆ—¯W‘W¯·’÷bïjï§>:>‰>>¾v¾«}/øaııvúİó×ğçú×ûO8¬	è
+¤FV>2	uÃÁÁ»‚/Ò_$\ÔBüCv…<	5]ús.,4¬&ìy¸Ux~xw-bEDCÄ»HÈÒÈG‹KwFÉGÅEÕGME{E—EK—X,Y³äFŒZŒ ¦={$vr©÷ÒİK‡ãìâ
+ãî.3\–³ìÚrµå©ËÏ®_ÁYq*ßÿ‰Â©åL®ô_¹wå×“»‡û’çÆ+çñ]øeü‘—„²„ÑD—Ä]‰cI®IIãOAµàu²_òä©””£)3©Ñ©Íi„´ø´ÓB%aŠ°+]3='½/Ã4£0CºÊiÕîU¢@Ñ‘L(sYf»˜şLõHŒ$›%ƒY³j²ŞgGeŸÊQÌæôäšänËÉóÉû~5f5wug¾vş†üÁ5îk­…Ö®\Û¹Nw]Áºáõ¾ëm mHÙğËFËeßnŠŞÔQ Q°¾`h³ïæÆB¹BQá½-Î[lÅllíİf³­jÛ—"^ÑõbËâŠâO%Ü’ëßY}WùİÌö„í½¥ö¥ûwàvwÜİéºóX™bY^ÙĞ®à]­åÌò¢ò·»Wì¾Va[q`id´2¨²½J¯jGÕ§ê¤êšæ½ê{·íÚÇÛ×¿ßmÓÅ>¼È÷Pk­AmÅaÜá¬ÃÏë¢êº¿g_DíHñ‘ÏG…G¥ÇÂuÕ;Ô×7¨7”6Â’Æ±ãqÇoıàõC{«éP3£¹ø8!9ñâÇøï<ÙyŠ}ªé'ıŸö¶ĞZŠZ¡ÖÜÖ‰¶¤6i{L{ßé€ÓÎ-?›ÿ|ôŒö™š³ÊgKÏ‘Îœ›9Ÿw~òBÆ…ñ‹‰‡:Wt>º´äÒ®°®ŞË—¯^ñ¹r©Û½ûüU—«g®9];}}½í†ıÖ»–_ì~iéµïm½ép³ı–ã­¾}çú]û/Şöº}åÿ‹úî.¾{ÿ^Ü=é}ŞıÑ©^?Ìz8ıhıcìã¢'
+O*ª?­ıÕø×f©½ôì ×`Ï³ˆg†¸C/ÿ•ù¯OÃÏ©Ï+F´FêG­GÏŒùŒİz±ôÅğËŒ—Óã…¿)ş¶÷•Ñ«Ÿ~wû½gbÉÄğkÑë™?JŞ¨¾9úÖömçdèäÓwiï¦§ŠŞ«¾?öı¡ûcôÇ‘éìOøO•Ÿ?w|	üòx&mfæß÷„óû
+endstream
+endobj
+1893 0 obj
+<< /Type /ExtGState /BM /Multiply >>
+endobj
+1894 0 obj
+<< /T (yfan) /AP << /N 1895 0 R >> /Rect [ 56.6929 534.6355 290.5591 597.1497
+] /M (D:20251119031926Z00'00') /C [ 0.980392 0.803922 0.352941 ] /DA (//Helvetica 12 Tf 0 g)
+/F 4 /Type /Annot /Border [ 0 0 0 ] /QuadPoints [ 225.344 597.1497 290.5523
+597.1497 225.344 582.6163 290.5523 582.6163 56.6929 585.1545 290.5533 585.1545
+56.6929 570.6211 290.5533 570.6211 56.6929 573.1593 290.5572 573.1593 56.6929
+558.6259 290.5572 558.6259 56.6929 561.1641 290.5376 561.1641 56.6929 546.6307
+290.5376 546.6307 56.6929 549.1689 290.5591 549.1689 56.6929 534.6355 290.5591
+534.6355 ] /Subtype /Highlight >>
+endobj
+1895 0 obj
+<< /Length 502 /Type /XObject /FormType 1 /Resources 1896 0 R /Subtype /Form
+/Filter /FlateDecode /BBox [ 0 0 233.8662 62.5142 ] >> stream
+xe”9AEó>OPÃµ–Øã‰| Áv2c`¬ûşÕµ	0¨ñĞúä#«ôEïôEŒš¥š³RÖâJÒúCoßB'qj•­)îïş`¡Í…zûş”ë÷“$×”C„"’z	ú|A5I¸T’ÂIØƒ²$Î\3ˆ¤ˆR7¹h%CËfô¦É9twÍ)Vø!£ƒ;	j÷KšÌ¹êÎñ–Ü\üÛäqšZìú8­/ö¢·Âÿ›Áƒ~aÀnICÁsÆ(j«—$3'ÄqœISãœëkV[ƒxAc}l×Š†R_(Û.Ü“Âî<°ì1ĞBV0ˆŠ9©£Ø"}~³§…°ˆÕ÷FpZ™Guˆ›@¼}^LæI²aÑ/\Ø8Xâ%÷^›âÂíÚlH¹ìCfåe—´âÔ2÷m ÒHîVüê(·õúF¸;+‚£$¦Öw.-i–vï\ê5:¸„õ¦ºÕŞÊı^oØš@aÿ®¯Ó½Ğ¾Í;Y…§ù2ÌC3Hæ5æÒQmƒ#¾Ñßˆ/™™/ªC¼À;—Û[pÙ‹õôyÖñ{®Œ[¼ÎÕûÒ·è­Œ—ÖÊµ6Œã»³7…×¥ïÿg,3¯…÷˜ÙÇØw¯5Á‹õ$[z_Tî™Ç4%»ñû?S	
+endstream
+endobj
+1896 0 obj
+<< /ColorSpace << /Cs1 1897 0 R >> /ProcSet [ /PDF ] /ExtGState << /Gs1 1899 0 R
+>> >>
+endobj
+1897 0 obj
+[ /ICCBased 1898 0 R ]
+endobj
+1898 0 obj
+<< /Alternate /DeviceRGB /Length 2612 /Filter /FlateDecode /N 3 >> stream
+x–wTSÙ‡Ï½7½Ğ" %ôz	 Ò;HQ‰I€P†„&vDF)VdTÀG‡"cEƒ‚b×	òPÆÁQDEåİŒk	ï­5óŞšıÇYßÙç·×Ùgï}×º Pü‚ÂtX€4¡XîëÁ\ËÄ÷XÀáffGøDÔü½=™™¨HÆ³öî.€d»Û,¿P&sÖÿ‘"7C$ 
+EÕ6<~&å”S³Å2ÿÊô•)2†12¡	¢¬"ãÄ¯lö§æ+»É˜—&ä¡YÎ¼4Œ»PŞš%á£Œ¡\˜%àg£|e½TIš å÷(ÓÓøœL 0™_Ìç&¡l‰2Eî‰ò ”Ä9¼r‹ù9h x¦gäŠ‰Ib¦×˜iåèÈfúñ³Sùb1+”ÃMáˆxLÏô´0€¯o–E%Ym™h‘í­ííYÖæhù¿Ùß~Sı=ÈzûUñ&ìÏAŒYßlì¬/½ ö$Z›³¾•U ´m@åá¬Oï  ò ´Şœó†l^’Äâ'‹ììlsŸk.+è7ûŸ‚oÊ¿†9÷™ËîûV;¦?#I3eEå¦§¦KDÌÌ—Ïdı÷ÿãÀ9iÍÉÃ,œŸÀñ…èUQè”	„‰h»…<X.d
+„Õá6'~khu_ }…9P¸IÈo= C#$n?z}ë[1
+È¾¼h­‘¯s2zşçú\ŠnáLA"Sæödr%¢,£ß„lÁt 
+4.0,`€3pŞ  „€H–.Hi@²A>Ø 
+A1Øvƒjp ÔzĞN‚6p\WÀp€G@
+†ÁK0Şi‚ğ¢Aª¤™BÖZyCAP8ÅC‰’@ùĞ&¨*ƒª¡CP=ô#tº]ƒú Ğ 4ı}„˜ÓaØ ¶€Ù°;GÂËàDxœÀÛáJ¸>·Âáğ ,…_Â“@ÈÑFXñDBX$!k‘"¤©Eš¤¹H‘qä‡¡a˜Æã‡YŒábVaÖbJ0Õ˜c˜VLæ6f3ù‚¥bÕ±¦X'¬?v	6›-ÄV``[°—±Øaì;ÇÀâp~¸\2n5®·×Œ»€ëÃá&ñx¼*Şï‚Ásğb|!¾
+ßÆ¿'	Zk‚!– $l$Tçı„Â4Q¨Ot"†yÄ\b)±ØA¼I&N“I†$R$)™´TIj"]&=&½!“É:dGrY@^O®$Ÿ _%’?P”(&OJEBÙN9J¹@y@yC¥R¨nÔXª˜ºZO½D}J}/G“3—ó—ãÉ­“«‘k•ë—{%O”×—w—_.Ÿ'_!Jş¦ü¸QÁ@ÁS£°V¡Fá´Â=…IEš¢•bˆbšb‰bƒâ5ÅQ%¼’’·O©@é°Ò%¥!BÓ¥yÒ¸´M´:ÚeÚ0G7¤ûÓ“éÅôè½ô	e%e[å(ååå³ÊRÂ0`ø3R¥Œ“Œ»Œó4æ¹ÏãÏÛ6¯i^ÿ¼)•ù*n*|•"•f••ªLUoÕÕªmªOÔ0j&jajÙjûÕ.«Ï§ÏwÏ_4ÿäü‡ê°º‰z¸újõÃê=ê“š¾U—4Æ5šnšÉšåšç4Ç´hZµZåZçµ^0•™îÌTf%³‹9¡­®í§-Ñ>¤İ«=­c¨³Xg£N³Î]’.[7A·\·SwBOK/X/_¯Qï¡>QŸ­Ÿ¤¿G¿[ÊÀĞ Ú`‹A›Á¨¡Š¡¿aa£ác#ª‘«Ñ*£Z£;Æ8c¶qŠñ>ã[&°‰I’IÉMSØÔŞT`ºÏ´Ïkæh&4«5»Ç¢°ÜYY¬FÖ 9Ã<È|£y›ù+=‹X‹İ_,í,S-ë,Y)YXm´ê°úÃÚÄšk]c}Ç†jãc³Î¦İæµ­©-ßv¿í};š]°İ»N»Ïöö"û&û1=‡x‡½÷Øtv(»„}Õëèá¸ÎñŒã'{'±ÓI§ßYÎ)ÎÎ£ğÔ-rÑqá¸r‘.d.Œ_xp¡ÔUÛ•ãZëúÌM×çvÄmÄİØ=Ùı¸û+K‘G‹Ç”§“çÏ^ˆ—¯W‘W¯·’÷bïjï§>:>‰>>¾v¾«}/øaııvúİó×ğçú×ûO8¬	è
+¤FV>2	uÃÁÁ»‚/Ò_$\ÔBüCv…<	5]ús.,4¬&ìy¸Ux~xw-bEDCÄ»HÈÒÈG‹KwFÉGÅEÕGME{E—EK—X,Y³äFŒZŒ ¦={$vr©÷ÒİK‡ãìâ
+ãî.3\–³ìÚrµå©ËÏ®_ÁYq*ßÿ‰Â©åL®ô_¹wå×“»‡û’çÆ+çñ]øeü‘—„²„ÑD—Ä]‰cI®IIãOAµàu²_òä©””£)3©Ñ©Íi„´ø´ÓB%aŠ°+]3='½/Ã4£0CºÊiÕîU¢@Ñ‘L(sYf»˜şLõHŒ$›%ƒY³j²ŞgGeŸÊQÌæôäšänËÉóÉû~5f5wug¾vş†üÁ5îk­…Ö®\Û¹Nw]Áºáõ¾ëm mHÙğËFËeßnŠŞÔQ Q°¾`h³ïæÆB¹BQá½-Î[lÅllíİf³­jÛ—"^ÑõbËâŠâO%Ü’ëßY}WùİÌö„í½¥ö¥ûwàvwÜİéºóX™bY^ÙĞ®à]­åÌò¢ò·»Wì¾Va[q`id´2¨²½J¯jGÕ§ê¤êšæ½ê{·íÚÇÛ×¿ßmÓÅ>¼È÷Pk­AmÅaÜá¬ÃÏë¢êº¿g_DíHñ‘ÏG…G¥ÇÂuÕ;Ô×7¨7”6Â’Æ±ãqÇoıàõC{«éP3£¹ø8!9ñâÇøï<ÙyŠ}ªé'ıŸö¶ĞZŠZ¡ÖÜÖ‰¶¤6i{L{ßé€ÓÎ-?›ÿ|ôŒö™š³ÊgKÏ‘Îœ›9Ÿw~òBÆ…ñ‹‰‡:Wt>º´äÒ®°®ŞË—¯^ñ¹r©Û½ûüU—«g®9];}}½í†ıÖ»–_ì~iéµïm½ép³ı–ã­¾}çú]û/Şöº}åÿ‹úî.¾{ÿ^Ü=é}ŞıÑ©^?Ìz8ıhıcìã¢'
+O*ª?­ıÕø×f©½ôì ×`Ï³ˆg†¸C/ÿ•ù¯OÃÏ©Ï+F´FêG­GÏŒùŒİz±ôÅğËŒ—Óã…¿)ş¶÷•Ñ«Ÿ~wû½gbÉÄğkÑë™?JŞ¨¾9úÖömçdèäÓwiï¦§ŠŞ«¾?öı¡ûcôÇ‘éìOøO•Ÿ?w|	üòx&mfæß÷„óû
+endstream
+endobj
+1899 0 obj
+<< /Type /ExtGState /BM /Multiply >>
+endobj
+xref
+0 2
+0000000000 65535 f 
+0002372498 00000 n 
+3 1
+0002373425 00000 n 
+48 2
+0002374385 00000 n 
+0002375350 00000 n 
+82 1
+0002375477 00000 n 
+110 1
+0002376442 00000 n 
+173 1
+0002377412 00000 n 
+207 1
+0002378384 00000 n 
+222 1
+0002379356 00000 n 
+256 1
+0002380328 00000 n 
+262 2
+0002381284 00000 n 
+0002382256 00000 n 
+267 1
+0002382390 00000 n 
+293 1
+0002382659 00000 n 
+325 1
+0002383631 00000 n 
+329 1
+0002384588 00000 n 
+333 1
+0002385545 00000 n 
+382 1
+0002386517 00000 n 
+413 1
+0002387489 00000 n 
+448 1
+0002388461 00000 n 
+485 1
+0002389433 00000 n 
+504 1
+0002390405 00000 n 
+537 1
+0002391377 00000 n 
+574 1
+0002392350 00000 n 
+611 1
+0002393323 00000 n 
+640 1
+0002394296 00000 n 
+649 1
+0002395269 00000 n 
+684 1
+0002396241 00000 n 
+711 1
+0002397213 00000 n 
+744 1
+0002398185 00000 n 
+765 1
+0002399157 00000 n 
+776 1
+0002400129 00000 n 
+797 1
+0002401101 00000 n 
+828 1
+0002402073 00000 n 
+852 1
+0002403045 00000 n 
+871 1
+0002404017 00000 n 
+892 1
+0002404989 00000 n 
+915 1
+0002405961 00000 n 
+950 1
+0002406933 00000 n 
+968 1
+0002407905 00000 n 
+979 1
+0002408877 00000 n 
+1011 1
+0002409849 00000 n 
+1021 1
+0002410826 00000 n 
+1056 1
+0002411803 00000 n 
+1085 1
+0002412780 00000 n 
+1226 1
+0002413757 00000 n 
+1753 1
+0002414734 00000 n 
+1888 12
+0002415333 00000 n 
+0002415667 00000 n 
+0002416004 00000 n 
+0002416109 00000 n 
+0002416150 00000 n 
+0002418865 00000 n 
+0002418920 00000 n 
+0002419534 00000 n 
+0002420204 00000 n 
+0002420309 00000 n 
+0002420350 00000 n 
+0002423065 00000 n 
+trailer
+<< /ID [<62EE95F053A66643BBAE56999B2D8360><C8794794A73995E263108C535BB7A59F> ] /Root 1758 0 R /Prev 2371162 /Size 1900 /Info 1 0 R >> 
+startxref
+2423120
+%%EOF
