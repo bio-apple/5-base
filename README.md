@@ -163,6 +163,8 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
     外源对照DNA(Spike-in):在DNA样本中加入已知序列和完全未甲基化的人工DNA或噬菌体 DNA（如 λ phage DNA）。计算这些外源DNA中C到T的转化率，可以更准确地评估转化效率，因为它不受生物学甲基化模式的影响。
     线粒体DNA (mtDNA):由于线粒体DNA 在许多生物中通常是未甲基化的，因此可以用来估计转化率。
 
+### Statistical Hypothesis Testing for Differential DNA Methylation
+
 **quantify the methylation level**
 
 ![quantify](pic/quantify.png)
