@@ -41,7 +41,7 @@ Methylation (5mC)
 Methylation is primarily identified by reference C>T mismatches on the + strand, or G>A mismatches on the – strand.
 目前5-base data is only compatible with **--methylation-protocol=directional**
 
- Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
+Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
 
 ### Small Variant Calling:
 **--enable-variant-caller=true**
@@ -131,6 +131,7 @@ Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bi
 ![bismark](./pic/Bismark_alignment_modes.png)
 
 #### bwa-meth
+
 [bwa-meth:fast and accurate alignment of BS-Seq reads using bwa-mem and a 3-letter genome](https://github.com/brentp/bwa-meth)
 
 [Pedersen B S, Eyring K, De S, et al. Fast and accurate alignment of long bisulfite-seq reads[J]. arXiv preprint arXiv:1401.1129, 2014.](https://arxiv.org/pdf/1401.1129)
@@ -142,7 +143,7 @@ Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bi
 
 ### ENCODE (Encyclopedia of DNA Elements)
 
-ENCODE (DNA 元件百科全书) 项目的核心目标是识别和描述人类基因组中的所有功能元件（如组蛋白修饰、DNA敏感性、转录因子结合位点等），这些功能元件在正常生理条件下是如何工作的。因此，ENCODE 的大部分原始样本数据确实来自正常（健康）的细胞和组织。
+WGBS offers comprehensive genome wide coverage (~28 million CpGs). ENCODE (DNA 元件百科全书) 项目的核心目标是识别和描述人类基因组中的所有功能元件（如组蛋白修饰、DNA敏感性、转录因子结合位点等），这些功能元件在正常生理条件下是如何工作的。因此，ENCODE 的大部分原始样本数据确实来自正常（健康）的细胞和组织。
 
 ![Encode](./pic/Encode_WGBS.png)
 
