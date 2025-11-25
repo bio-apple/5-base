@@ -6,17 +6,21 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 ![5-base](./pic/5-base.png)
 
-## Illumina 5-base conversion chemistry
+## 1.library
+
+**Illumina 5-base conversion chemistry**
 
 ![chemistry](./pic/chemistry.png)
 
-## other Libraries
+**other Libraries**
+
+在很长一段时间里，科学家认为DNA甲基化（5-hydroxymethylcytosine，5hmC）是一个相对稳定的、最终的沉默标记。然而，在2009年，两个里程碑式的研究发现，5mC可以在TET家族酶的作用下被氧化成5hmC。
 
 ![reactions](./pic/reactions.png)
 
 [Kernaleguen M, Daviaud C, Shen Y, et al. Whole-genome bisulfite sequencing for the analysis of genome-wide DNA methylation and hydroxymethylation patterns at single-nucleotide resolution[M]//Epigenome Editing: Methods and Protocols. New York, NY: Springer New York, 2018: 311-349.](https://link.springer.com/protocol/10.1007/978-1-4939-7774-1_18)
 
-## Sequencing coverage recommendations for different applications
+## 2.Sequencing coverage recommendations for different applications
 
 ![application](./pic/application.png)
 
@@ -26,7 +30,7 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 *   18 samples/NovaSeq X 10B or NovaSeq 6000 S4 
 *   3 samples/NovaSeq X 1.5B
 
-## 生信分析
+## 3.初级生信分析
 
 ![pipeline](./pic/pipeline.png)
 
@@ -34,19 +38,21 @@ https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pi
 
 Methylation (5mC)
 
-### 参数设置:
-**--methylation-conversion=illumina**
+**参数设置:**
 
-### 默认分析:
+    --methylation-conversion=illumina
+
+**默认分析:**
 Methylation is primarily identified by reference C>T mismatches on the + strand, or G>A mismatches on the – strand.
 目前5-base data is only compatible with **--methylation-protocol=directional**
 
 Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
 
-### Small Variant Calling:
-**--enable-variant-caller=true**
+**Small Variant Calling:**
 
-### CNV Calling:
+    --enable-variant-caller=true
+
+**CNV Calling:**
 
         Germline CNV Calling (depth-based): Supported for WGS; not supported for WES
         Germline CNV Calling ASCN: Not supported
@@ -56,39 +62,46 @@ Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
         Cytogenetics Modality: Not supported
         CNV with SV Support: Supported
 
-### SVs(future 4.5 release of DRAGEN)
+**SVs(future 4.5 release of DRAGEN)**
 
-### Reference Support and Recommended Use for Human Data
+**Reference Support and Recommended Use for Human Data**
 
 ![genome](./pic/genome.png)
 
-### 分析时间:
+**分析时间:**
 1–4 hours(30× Germline–100×/30× T/N.)
 
-### 不同类型的胞嘧啶甲基化
+## 4.分析结果
+
+**4-1.初级分析输出:cytosine_report**
+
+| 字段 (Field) | 描述 (Description) |
+| :--- | :--- |
+| 染色体 (Chr) | 胞嘧啶位点所在的染色体或支架。 |
+| 坐标 (Position) | 胞嘧啶位点在染色体上的位置（1-基）。 |
+| 链 (Strand) | 胞嘧啶所在链的方向（+ 或 -）。 |
+| **甲基化计数 (Methylated Count)** | 在该位置上，被读取为 **C**（即甲基化）的序列片段数量。 |
+| **非甲基化计数 (Unmethylated Count)** | 在该位置上，被读取为 **T**（即非甲基化）的序列片段数量。 |
+| 环境 (Context) | 胞嘧啶周围的两个碱基（如 CpG, CHG, CHH）。 |
+| 三核苷酸 (Trinucleotide) | 胞嘧啶及其前后的碱基（用于更精细的环境分析）。 |
+   
+
 | 类型 | 序列模式 | 主要分布 | 生物学意义 |
 | :--- | :--- | :--- | :--- |
 | **CpG** | 5'-**C G**-3' | 哺乳动物基因组 | **主要的甲基化类型**，与基因沉默、基因组印迹、X染色体失空等密切相关。 |
 | **CHG** | 5'-C **H G**-3' (H=A/T/C) | 植物基因组 | 在植物中与CpG甲基化共同维持转录转座子沉默。在哺乳动物某些细胞中有非典型存在。 |
 | **CHH** | 5'-C **H H**-3' (H=A/T/C) | 植物基因组 | 在植物中通常甲基化水平较低，需要被持续建立，常用于防御病毒和转座子。 |
 
-### 5-base 三级分析
+**4-2.M-bias**
+
+在配对末端（Paired-End, PE）测序文库制备的末端修复（End-Repair）步骤中，如果使用了未甲基化的胞嘧啶进行补齐（Fill-in）反应，这部分新合成的序列在后续的亚硫酸氢盐处理中会被转化为T。 偏差： 这会人为地导致第二条Read（Read 2）的起始几个碱基出现 **低甲基化（Hypomethylation**信号，是一个需要通过生物信息学方法去除的人工假象。
+为了保证数据准确性，通常会建议在下游分析中去除或 **硬裁剪（hard-clip)** 掉读长中受M-bias影响的碱基（例如，将读长的前5个或后5个碱基丢弃），以提高甲基化水平估算的准确性。
+
+## 5.三级分析
 
 ICM 5-Base:https://help.connected.illumina.com/dragen-5-base/tertiary-analysis/connected-multiomics-walkthrough
 
-**对应的开源软件:**
-
-Detect Differentially Methylated Regions (DMRs) Bioconductor package :<br>
-
-Using DSS for BS-seq differential methylation analysis: https://www.bioconductor.org/packages/devel/bioc/vignettes/DSS/inst/doc/DSS.html#3_Using_DSS_for_BS-seq_differential_methylation_analysis
-
-Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bioc/vignettes/bsseq/inst/doc/bsseq_analysis.html
-
-### 6-base genome:5-hydroxymethylcytosine (5hmC) 
-
-在很长一段时间里，科学家认为DNA甲基化（5mC）是一个相对稳定的、最终的沉默标记。然而，在2009年，两个里程碑式的研究发现，5mC可以在TET家族酶的作用下被氧化成5hmC。
-
-### 常规甲基化生物信息分析(初级分析)
+## 6.常规甲基化生物信息分析(初级分析)
 
 [Gong T, Borgard H, Zhang Z, et al. Analysis and performance assessment of the whole genome bisulfite sequencing data workflow: currently available tools and a practical guide to advance DNA methylation studies[J]. Small Methods, 2022, 6(3): 2101251.](https://onlinelibrary.wiley.com/doi/abs/10.1002/smtd.202101251)
 
@@ -113,7 +126,7 @@ Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bi
 
 ![bioinformatics](pic/data_process.png)
 
-### 序列比对
+### 6-1:序列比对
 
 | 特征 | 三字母法 (Three-letter) | 通配符法 (Wildcard) |
 | :--- | :--- | :--- |
@@ -126,22 +139,17 @@ Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bi
 | **计算效率** | **更快**（优先考虑） | 较慢 |
 | **代表工具** | Bismark, BWA-METH | BRAT\_BW, BSMAP, GSnap |
 
-#### Bismark
+**Bismark**
 
 ![bismark](./pic/Bismark_alignment_modes.png)
 
-#### bwa-meth
+**bwa-meth**
 
 [bwa-meth:fast and accurate alignment of BS-Seq reads using bwa-mem and a 3-letter genome](https://github.com/brentp/bwa-meth)
 
 [Pedersen B S, Eyring K, De S, et al. Fast and accurate alignment of long bisulfite-seq reads[J]. arXiv preprint arXiv:1401.1129, 2014.](https://arxiv.org/pdf/1401.1129)
 
-### M-bias plot
-
-在配对末端（Paired-End, PE）测序文库制备的末端修复（End-Repair）步骤中，如果使用了未甲基化的胞嘧啶进行补齐（Fill-in）反应，这部分新合成的序列在后续的亚硫酸氢盐处理中会被转化为T。 偏差： 这会人为地导致第二条Read（Read 2）的起始几个碱基出现 **低甲基化（Hypomethylation**信号，是一个需要通过生物信息学方法去除的人工假象。
-为了保证数据准确性，通常会建议在下游分析中去除或 **硬裁剪（hard-clip)** 掉读长中受M-bias影响的碱基（例如，将读长的前5个或后5个碱基丢弃），以提高甲基化水平估算的准确性。
-
-### ENCODE (Encyclopedia of DNA Elements)
+## 7:ENCODE (Encyclopedia of DNA Elements)
 
 WGBS offers comprehensive genome wide coverage (~28 million CpGs). ENCODE (DNA 元件百科全书) 项目的核心目标是识别和描述人类基因组中的所有功能元件（如组蛋白修饰、DNA敏感性、转录因子结合位点等），这些功能元件在正常生理条件下是如何工作的。因此，ENCODE 的大部分原始样本数据确实来自正常（健康）的细胞和组织。
 
@@ -164,7 +172,9 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
     外源对照DNA(Spike-in):在DNA样本中加入已知序列和完全未甲基化的人工DNA或噬菌体 DNA（如 λ phage DNA）。计算这些外源DNA中C到T的转化率，可以更准确地评估转化效率，因为它不受生物学甲基化模式的影响。
     线粒体DNA (mtDNA):由于线粒体DNA 在许多生物中通常是未甲基化的，因此可以用来估计转化率。
 
-### Statistical Hypothesis Testing for Differential DNA Methylation
+## 8:差异甲基化分析高级分析
+
+### 8-1:Statistical Hypothesis Testing for Differential DNA Methylation
 
 **quantify the methylation level**
 
@@ -173,26 +183,15 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 **参考文献:**<br>
 [Tsuji J, Weng Z. Evaluation of preprocessing, mapping and postprocessing algorithms for analyzing whole genome bisulfite sequencing data[J]. Briefings in bioinformatics, 2016, 17(6): 938-952.](https://academic.oup.com/bib/article/17/6/938/2606438)
 
-
-### 甲基化分析高级分析
-
-#### 1.初级分析输出:cytosine_report
-
-| 字段 (Field) | 描述 (Description) |
-| :--- | :--- |
-| 染色体 (Chr) | 胞嘧啶位点所在的染色体或支架。 |
-| 坐标 (Position) | 胞嘧啶位点在染色体上的位置（1-基）。 |
-| 链 (Strand) | 胞嘧啶所在链的方向（+ 或 -）。 |
-| **甲基化计数 (Methylated Count)** | 在该位置上，被读取为 **C**（即甲基化）的序列片段数量。 |
-| **非甲基化计数 (Unmethylated Count)** | 在该位置上，被读取为 **T**（即非甲基化）的序列片段数量。 |
-| 环境 (Context) | 胞嘧啶周围的两个碱基（如 CpG, CHG, CHH）。 |
-| 三核苷酸 (Trinucleotide) | 胞嘧啶及其前后的碱基（用于更精细的环境分析）。 |
-   
-#### 2.生信软件
+### 8-2.生信软件
 
 [methylKit](https://www.bioconductor.org/packages/release/bioc/html/methylKit.html):an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.
 
 [genomation](https://www.bioconductor.org/packages/release/bioc/html/genomation.html):a toolkit to summarize, annotate and visualize genomic intervals.
+
+Using DSS for BS-seq differential methylation analysis: https://www.bioconductor.org/packages/devel/bioc/vignettes/DSS/inst/doc/DSS.html#3_Using_DSS_for_BS-seq_differential_methylation_analysis
+
+Analyzing WGBS data with bsseq: https://www.bioconductor.org/packages/release/bioc/vignettes/bsseq/inst/doc/bsseq_analysis.html
 
 loading the required packages.
 
