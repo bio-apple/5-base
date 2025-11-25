@@ -4,25 +4,25 @@ https://www.illumina.com/science/genomics-research/articles/5-base-solution.html
 
 The 5-base genome measures the four standard bases plus methylated cytosine as a fifth base.
 
-![5-base](./pic/5-base.png)
+<img src="./pic/5-base.png" height=200 width=800>
 
 ## 1.library
 
 **Illumina 5-base conversion chemistry**
 
-![chemistry](./pic/chemistry.png)
+<img src="./pic/chemistry.png" height=200 width=400>
 
 **other Libraries**
 
 在很长一段时间里，科学家认为DNA甲基化（5-hydroxymethylcytosine，5hmC）是一个相对稳定的、最终的沉默标记。然而，在2009年，两个里程碑式的研究发现，5mC可以在TET家族酶的作用下被氧化成5hmC。
 
-![reactions](./pic/reactions.png)
+<img src="./pic/reactions.png" height=200 width=400>
 
 [Kernaleguen M, Daviaud C, Shen Y, et al. Whole-genome bisulfite sequencing for the analysis of genome-wide DNA methylation and hydroxymethylation patterns at single-nucleotide resolution[M]//Epigenome Editing: Methods and Protocols. New York, NY: Springer New York, 2018: 311-349.](https://link.springer.com/protocol/10.1007/978-1-4939-7774-1_18)
 
 ## 2.Sequencing coverage recommendations for different applications
 
-![application](./pic/application.png)
+<img src="./pic/application.png" height=300 width=900>
 
 **500M paired-end reads for germline VC + Methylation:**
 
@@ -32,7 +32,7 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 ## 3.初级生信分析
 
-![pipeline](./pic/pipeline.png)
+<img src="./pic/pipeline.png" height=200 width=1200>
 
 https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
 
@@ -66,7 +66,7 @@ Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
 
 **Reference Support and Recommended Use for Human Data**
 
-![genome](./pic/genome.png)
+<img src="./pic/genome.png" height=200 width=400>
 
 **分析时间:**
 1–4 hours(30× Germline–100×/30× T/N.)
