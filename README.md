@@ -71,9 +71,12 @@ Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
 **分析时间:**
 1–4 hours(30× Germline–100×/30× T/N.)
 
+**三级分析:**
+ICM 5-Base:https://help.connected.illumina.com/dragen-5-base/tertiary-analysis/connected-multiomics-walkthrough
+
 ## 4.分析结果
 
-**4-1.初级分析输出:cytosine_report**
+**初级分析输出:cytosine_report**
 
 | 字段 (Field) | 描述 (Description) |
 | :--- | :--- |
@@ -92,16 +95,12 @@ Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
 | **CHG** | 5'-C **H G**-3' (H=A/T/C) | 植物基因组 | 在植物中与CpG甲基化共同维持转录转座子沉默。在哺乳动物某些细胞中有非典型存在。 |
 | **CHH** | 5'-C **H H**-3' (H=A/T/C) | 植物基因组 | 在植物中通常甲基化水平较低，需要被持续建立，常用于防御病毒和转座子。 |
 
-**4-2.M-bias**
+**M-bias**
 
 在配对末端（Paired-End, PE）测序文库制备的末端修复（End-Repair）步骤中，如果使用了未甲基化的胞嘧啶进行补齐（Fill-in）反应，这部分新合成的序列在后续的亚硫酸氢盐处理中会被转化为T。 偏差： 这会人为地导致第二条Read（Read 2）的起始几个碱基出现 **低甲基化（Hypomethylation**信号，是一个需要通过生物信息学方法去除的人工假象。
 为了保证数据准确性，通常会建议在下游分析中去除或 **硬裁剪（hard-clip)** 掉读长中受M-bias影响的碱基（例如，将读长的前5个或后5个碱基丢弃），以提高甲基化水平估算的准确性。
 
-## 5.三级分析
-
-ICM 5-Base:https://help.connected.illumina.com/dragen-5-base/tertiary-analysis/connected-multiomics-walkthrough
-
-## 6.常规甲基化生物信息分析(初级分析)
+## 5.常规甲基化生物信息分析(初级分析)
 
 [Gong T, Borgard H, Zhang Z, et al. Analysis and performance assessment of the whole genome bisulfite sequencing data workflow: currently available tools and a practical guide to advance DNA methylation studies[J]. Small Methods, 2022, 6(3): 2101251.](https://onlinelibrary.wiley.com/doi/abs/10.1002/smtd.202101251)
 
@@ -126,7 +125,7 @@ ICM 5-Base:https://help.connected.illumina.com/dragen-5-base/tertiary-analysis/c
 
 ![bioinformatics](pic/data_process.png)
 
-### 6-1:序列比对
+### 5-1:序列比对
 
 | 特征 | 三字母法 (Three-letter) | 通配符法 (Wildcard) |
 | :--- | :--- | :--- |
@@ -149,7 +148,7 @@ ICM 5-Base:https://help.connected.illumina.com/dragen-5-base/tertiary-analysis/c
 
 [Pedersen B S, Eyring K, De S, et al. Fast and accurate alignment of long bisulfite-seq reads[J]. arXiv preprint arXiv:1401.1129, 2014.](https://arxiv.org/pdf/1401.1129)
 
-## 7:ENCODE (Encyclopedia of DNA Elements)
+## 6:ENCODE (Encyclopedia of DNA Elements)
 
 WGBS offers comprehensive genome wide coverage (~28 million CpGs). ENCODE (DNA 元件百科全书) 项目的核心目标是识别和描述人类基因组中的所有功能元件（如组蛋白修饰、DNA敏感性、转录因子结合位点等），这些功能元件在正常生理条件下是如何工作的。因此，ENCODE 的大部分原始样本数据确实来自正常（健康）的细胞和组织。
 
@@ -172,9 +171,9 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
     外源对照DNA(Spike-in):在DNA样本中加入已知序列和完全未甲基化的人工DNA或噬菌体 DNA（如 λ phage DNA）。计算这些外源DNA中C到T的转化率，可以更准确地评估转化效率，因为它不受生物学甲基化模式的影响。
     线粒体DNA (mtDNA):由于线粒体DNA 在许多生物中通常是未甲基化的，因此可以用来估计转化率。
 
-## 8:差异甲基化分析高级分析
+## 7:差异甲基化分析高级分析
 
-### 8-1:Statistical Hypothesis Testing for Differential DNA Methylation
+### 7-1:Statistical Hypothesis Testing for Differential DNA Methylation
 
 **quantify the methylation level**
 
@@ -183,9 +182,11 @@ The pipeline maps against the lambda genome as a method of control.The C to T co
 **参考文献:**<br>
 [Tsuji J, Weng Z. Evaluation of preprocessing, mapping and postprocessing algorithms for analyzing whole genome bisulfite sequencing data[J]. Briefings in bioinformatics, 2016, 17(6): 938-952.](https://academic.oup.com/bib/article/17/6/938/2606438)
 
-### 8-2.生信软件
+### 7-2.生信软件
 
 [methylKit](https://www.bioconductor.org/packages/release/bioc/html/methylKit.html):an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing.
+
+[methylKit: User Guide](https://www.bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html)
 
 [genomation](https://www.bioconductor.org/packages/release/bioc/html/genomation.html):a toolkit to summarize, annotate and visualize genomic intervals.
 
@@ -240,6 +241,4 @@ For **CpG island annotation (200-bp regions typically 1 kb with a GC fraction gr
 
 2.  [DNA Methylation: Bisulfite Sequencing Workflow](https://nbis-workshop-epigenomics.readthedocs.io/en/latest/content/tutorials/methylationSeq/Seq_Tutorial.html)
 
-3.  [methylKit: User Guide](https://www.bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html)
-
-4. [wgbstools - suite for DNA methylation sequencing data representation, visualization, and analysis](https://github.com/nloyfer/wgbs_tools)
+3.  [wgbstools - suite for DNA methylation sequencing data representation, visualization, and analysis](https://github.com/nloyfer/wgbs_tools)
