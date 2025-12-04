@@ -125,6 +125,15 @@ ICM 5-Base:https://help.connected.illumina.com/dragen-5-base/tertiary-analysis/c
 
 ![bioinformatics](pic/data_process.png)
 
+分析示例1：
+
+    Paired-end FASTQ files were mapped to the human (hg19, hg38), lambda, pUC19 and viral genomes using bwa-meth (v.0.2.0) then converted to BAM files using SAMtools (v.1.9). 
+    Duplicated reads were marked by Sambamba (v.0.6.5) with parameters ‘-l 1 -t 16 --sort-buffer-size 16000 --overflow-list-size 10000000’. 
+    Reads with low mapping quality, duplicated or not mapped in a proper pair were excluded using SAMtools view with parameters ‘-F 1796 -q 10’. 
+    Reads were stripped from nonCpG nucleotides and converted to PAT files using wgbstools (v.0.1.0).
+
+[Loyfer N, Magenheim J, Peretz A, et al. A DNA methylation atlas of normal human cell types[J]. Nature, 2023, 613(7943): 355-364.](https://www.nature.com/articles/s41586-022-05580-6)
+
 ### 5-1:序列比对
 
 | 特征 | 三字母法 (Three-letter) | 通配符法 (Wildcard) |
@@ -168,8 +177,8 @@ The read length should be a minimum of 100 base pairs.<br>
 **内参：**<br>
 The pipeline maps against the lambda genome as a method of control.The C to T conversion rate should be ≥98%<br>
 
-    外源对照DNA(Spike-in):在DNA样本中加入已知序列和完全未甲基化的人工DNA或噬菌体 DNA（如 λ phage DNA）。计算这些外源DNA中C到T的转化率，可以更准确地评估转化效率，因为它不受生物学甲基化模式的影响。
-    线粒体DNA (mtDNA):由于线粒体DNA 在许多生物中通常是未甲基化的，因此可以用来估计转化率。
+    unmethylated:(e.g. Lambda, phiX, M13)
+    methylated controls (e.g. pUC19或线粒体DNA (mtDNA):由于线粒体DNA在许多生物中通常是未甲基化的，因此可以用来估计转化率。
 
 ## 7:差异甲基化分析高级分析
 
