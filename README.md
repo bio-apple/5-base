@@ -82,7 +82,7 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
 
 **分析时间:**
-1–4 hours(30× Germline–100×/30× T/N.)
+1–4 hours(30× Germline–100×/30× T/N)
 
 **三级分析:**
 ICM 5-Base:https://help.connected.illumina.com/dragen-5-base/tertiary-analysis/connected-multiomics-walkthrough
