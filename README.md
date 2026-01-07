@@ -34,11 +34,11 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 <img src="./pic/pipeline.png" height=200 width=1200>
 
-### Software version(advise): v4.4.6 https://support.illumina.com/downloads/illumina-dragen-secondary-analysis-v4-4.html
+**Software version(advise): v4.4.6** https://support.illumina.com/downloads/illumina-dragen-secondary-analysis-v4-4.html
 
-### User guide:https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
+**User guide:**https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
 
-### Reference
+**Reference**
 
 Human: https://support.illumina.com/sequencing/sequencing_software/dragen-bio-it-platform/product_files.html
 
@@ -80,22 +80,6 @@ Methylation is primarily identified by reference C>T mismatches on the + strand,
 目前5-base data is only compatible with **--methylation-protocol=directional**
 
 Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
-
-**Small Variant Calling:**
-
-    --enable-variant-caller=true
-
-**CNV Calling:**
-
-        Germline CNV Calling (depth-based): Supported for WGS; not supported for WES
-        Germline CNV Calling ASCN: Not supported
-        Multisample Germline CNV Calling: Not supported
-        Somatic CNV Calling ASCN: Supported for WGS; not supported for WES
-        Somatic CNV Calling WES: Not supported
-        Cytogenetics Modality: Not supported
-        CNV with SV Support: Supported
-
-** SVs（support)**
 
 **分析时间:**
 1–4 hours(30× Germline–100×/30× T/N.)
