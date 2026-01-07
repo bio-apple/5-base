@@ -44,6 +44,8 @@ https://support.illumina.com/sequencing/sequencing_software/dragen-bio-it-platfo
 
 <img src="./pic/genome.png" height=400 width=800>
 
+**build hash table**
+
     dragen --build-hash-table=true \
     --ht-reference <reference.fasta> --output-directory <outdir> \
     --ht-num-threads=42 \
