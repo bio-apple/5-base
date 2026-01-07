@@ -36,7 +36,7 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 **Software version(advise): v4.4.6** https://support.illumina.com/downloads/illumina-dragen-secondary-analysis-v4-4.html
 
-**User guide:**https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
+**User guide:** https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
 
 **Reference**
 
