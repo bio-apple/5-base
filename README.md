@@ -30,17 +30,50 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 *   18 samples/NovaSeq X 10B or NovaSeq 6000 S4 
 *   3 samples/NovaSeq X 1.5B
 
-## 3.初级生信分析
+## 3.dragen-5mC 二级分析
 
 <img src="./pic/pipeline.png" height=200 width=1200>
 
-https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
+### Software version(advise): v4.4.6 https://support.illumina.com/downloads/illumina-dragen-secondary-analysis-v4-4.html
 
-Methylation (5mC)
+### User guide:https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
 
-**参数设置:**
+### Reference
 
-    --methylation-conversion=illumina
+Human: https://support.illumina.com/sequencing/sequencing_software/dragen-bio-it-platform/product_files.html
+
+<img src="./pic/genome.png" height=200 width=400>
+
+    dragen --build-hash-table=true \
+    --ht-reference <reference.fasta> --output-directory <outdir> \
+    --ht-num-threads=42 \
+    --ht-build-rna-hashtable=true \
+    --ht-build-cnv-hashtable=true \
+    --ht-methylated-cg=true
+
+**run shell**
+
+    dragen -f -r ${1} \
+    -1 ${2} -2 ${3} --output-directory ${4} --output-file-prefix ${5} \
+    --RGID Illumina_RGID --RGSM ${5} \
+    --enable-map-align true \
+    --enable-map-align-output true \
+    --output-format BAM \
+    --enable-duplicate-marking true \
+    --enable-sort true \
+    --enable-variant-caller true \
+    --vc-enable-vcf-output true \
+    --enable-vcf-compression true \
+    --vc-emit-ref-confidence GVCF \
+    --enable-cnv true \
+    --cnv-enable-self-normalization true \
+    --enable-sv true \
+    --methylation-generate-cytosine-report=true \
+    --methylation-compress-cx-report=true \
+    --methylation-conversion=illumina \
+    --methylation-report-to-vcf=c \
+    --methylation-report-to-gvcf=cg
+
 
 **默认分析:**
 Methylation is primarily identified by reference C>T mismatches on the + strand, or G>A mismatches on the – strand.
@@ -62,11 +95,7 @@ Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
         Cytogenetics Modality: Not supported
         CNV with SV Support: Supported
 
-**SVs(future 4.5 release of DRAGEN)**
-
-**Reference Support and Recommended Use for Human Data**
-
-<img src="./pic/genome.png" height=200 width=400>
+** SVs（support)**
 
 **分析时间:**
 1–4 hours(30× Germline–100×/30× T/N.)
@@ -241,6 +270,22 @@ For **CpG island annotation (200-bp regions typically 1 kb with a GC fraction gr
     cpg_anot <- readFeatureFlank("/path/to/mm10.cpg.bed", 
                                 feature.flank.name = c("CpGi", "shores"), 
                                 flank=2000)
+
+## Dragen
+
+1.  software version(advise): v4.4.6 https://support.illumina.com/downloads/illumina-dragen-secondary-analysis-v4-4.html
+
+2.  Reference: https://support.illumina.com/sequencing/sequencing_software/dragen-bio-it-platform/product_files.html
+
+3. **Reference Support and Recommended Use for Human Data**
+
+<img src="./pic/genome.png" height=200 width=400>
+
+4. User guide:https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
+
+
+
+
 
 ## Resource
 
