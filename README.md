@@ -42,7 +42,7 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 Human: https://support.illumina.com/sequencing/sequencing_software/dragen-bio-it-platform/product_files.html
 
-<img src="./pic/genome.png" height=200 width=400>
+<img src="./pic/genome.png" height=400 width=800>
 
     dragen --build-hash-table=true \
     --ht-reference <reference.fasta> --output-directory <outdir> \
