@@ -255,22 +255,6 @@ For **CpG island annotation (200-bp regions typically 1 kb with a GC fraction gr
                                 feature.flank.name = c("CpGi", "shores"), 
                                 flank=2000)
 
-## Dragen
-
-1.  software version(advise): v4.4.6 https://support.illumina.com/downloads/illumina-dragen-secondary-analysis-v4-4.html
-
-2.  Reference: https://support.illumina.com/sequencing/sequencing_software/dragen-bio-it-platform/product_files.html
-
-3. **Reference Support and Recommended Use for Human Data**
-
-<img src="./pic/genome.png" height=200 width=400>
-
-4. User guide:https://help.dragen.illumina.com/product-guide/dragen-v4.4/dragen-methylation-pipeline/dragen-5base-pipeline
-
-
-
-
-
 ## Resource
 
 1.  [Computational Genomics with R](https://compgenomr.github.io/book/)
