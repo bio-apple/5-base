@@ -32,6 +32,12 @@ The 5-base genome measures the four standard bases plus methylated cytosine as a
 
 ## 3.dragen-5mC 二级分析
 
+![library](./pic/library.png)
+
+数据拆分samplesheet demo示例链接：https://support.illumina.com/downloads/illumina-5-base-dna-prep-sample-sheet-templates.html
+
+![samplesheet](./pic/samplesheet.png)
+
 <img src="./pic/pipeline.png" height=200 width=1200>
 
 **Software version(advise): v4.4.6** https://support.illumina.com/downloads/illumina-dragen-secondary-analysis-v4-4.html
