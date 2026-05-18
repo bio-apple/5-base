@@ -95,6 +95,9 @@ Germline and Somatic variants (SNVs, Indels, CNVs, SVs)
 **三级分析:**
 ICM 5-Base:https://help.connected.illumina.com/dragen-5-base/tertiary-analysis/connected-multiomics-walkthrough
 
+**Known Limitations**
+https://help.connected.illumina.com/dragen-5-base/additional-information/known-limitations
+
 ## 4.分析结果
 
 **初级分析输出:cytosine_report**
