@@ -35,7 +35,9 @@ dragen=(f'{dragen} -f -r {args.ref} --output-directory {args.outdir} --output-fi
 if args.UMI == "T":
     if not os.path.exists(f"{args.outdir}/fastp"):
         os.makedirs(f"{args.outdir}/fastp")
-    cmd = f'cd {args.outdir}/fastp && {fastp} -i {args.pe1} -I {args.pe2} --thread 64 -U --umi_loc per_read --umi_len 7 --umi_skip 1 -o {args.prefix}.umi.1.fq -O {args.prefix}.umi.2.fq --length_required 75'
+    cmd = (f'cd {args.outdir}/fastp && {fastp} -i {args.pe1} -I {args.pe2} '
+           f'-Q -L -A -G '# disable:length filter、Quality filtering、Adapter trimming、polyG tail trimming
+           f'--thread 64 -U --umi_loc per_read --umi_len 7 --umi_skip 1 -o {args.prefix}.umi.1.fq -O {args.prefix}.umi.2.fq --length_required 75')
     subprocess.check_call(cmd, shell=True)
     string = {}
     string["a"] = f'cd {args.outdir}/fastp && sed -E \'1~4s/(:[ACGTN]+)_([ACGTN]+)/\\1+\\2/\' < {args.prefix}.umi.1.fq |pigz -c -p 32 >{args.prefix}_S1_R1_001.fastq.gz && rm {args.prefix}.umi.1.fq fastp.html fastp.json'
@@ -53,7 +55,7 @@ print(dragen)
 p1 = subprocess.Popen(dragen, shell=True)
 p1.wait()
 ########Dragen report
-report=f'/usr/bin/dragen-reports -f -d {args.outdir} -o {args.outdir}/report.html -m /opt/dragen-reports/manifests/dna_methylation.json'
+report=f'/usr/bin/dragen-reports -f -d {args.outdir} -o {args.outdir}/report.html -m /opt/dragen-reports/manifests/methylation.json'
 print(report)
 subprocess.check_call(report, shell=True)
 
